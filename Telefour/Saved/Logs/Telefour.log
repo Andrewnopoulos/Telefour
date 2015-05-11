@@ -1,4 +1,4 @@
-﻿Log file open, 05/07/15 20:29:26
+﻿Log file open, 05/11/15 16:53:54
 LogInit:Display: Running engine for game: Telefour
 LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
 LogInit: API Version: 2455222
@@ -7,734 +7,566 @@ LogInit: Compiled with Visual C++: 18.00.21005.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++depot+UE4-Releases+4.7
 LogInit: Command line: 
-LogInit: Base directory: X:/Programs/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Base directory: C:/Program Files/Unreal Engine/Unreal Engine/4.7/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2015.05.07-10.29.26:914][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2015.05.07-10.29.26:965][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.05.07-10.29.26:977][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.05.07-10.29.26:986][  0]LogInit: Object subsystem initialized
-[2015.05.07-10.29.26:991][  0]LogInit: Selected Device Profile: [Windows]
-[2015.05.07-10.29.26:991][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.05.07-10.29.26:996][  0]LogInit: Computer: SLAGATHOR
-[2015.05.07-10.29.26:996][  0]LogInit: User: Andrew
-[2015.05.07-10.29.26:996][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.05.07-10.29.26:996][  0]LogInit: High frequency timer resolution =3.331250 MHz
-[2015.05.07-10.29.26:996][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
-[2015.05.07-10.29.26:996][  0]LogMemory: Platform Memory Stats for Windows
-[2015.05.07-10.29.26:996][  0]LogMemory: Process Physical Memory: 49.21 MB used, 49.21 MB peak
-[2015.05.07-10.29.26:996][  0]LogMemory: Process Virtual Memory: 27.57 MB used, 27.57 MB peak
-[2015.05.07-10.29.26:996][  0]LogMemory: Physical Memory: 7335.40 MB used, 8173.41 MB total
-[2015.05.07-10.29.26:996][  0]LogMemory: Virtual Memory: 283.63 MB used, 8388608.00 MB total
-[2015.05.07-10.29.27:018][  0]LogD3D11RHI: Found D3D11 adapter 0: ASUS R9 290X Series (Feature Level 11_0)
-[2015.05.07-10.29.27:018][  0]LogD3D11RHI: Adapter has 4076MB of dedicated video memory, 0MB of dedicated system memory, and 3830MB of shared system memory, 1 output[s]
-[2015.05.07-10.29.27:018][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.05.07-10.29.27:023][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.05.07-10.29.27:027][  0]LogD3D11RHI: Async texture creation disabled: no driver support
-[2015.05.07-10.29.27:077][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2015.05.07-10.29.27:134][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
-Resource: (X:/Programs/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
-Resource: (X:/Programs/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
-[2015.05.07-10.29.27:134][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
-Resource: (X:/Programs/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
-Resource: (X:/Programs/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
-[2015.05.07-10.29.27:212][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.05.07-10.29.29:530][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.05.07-10.29.30:042][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.05.07-10.29.30:106][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.05.07-10.29.30:143][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Andrew/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.05.07-10.29.30:143][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Andrew/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
-[2015.05.07-10.29.30:143][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Workspace/Telefour/Telefour/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.05.07-10.29.30:143][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.05.07-10.29.30:267][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.05.07-10.29.30:278][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Andrew/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.05.07-10.29.30:580][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.05.07-10.29.30:580][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.05.07-10.29.30:918][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.05.07-10.29.30:991][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2015.05.07-10.29.31:822][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.05.07-10.29.32:013][  0]SourceControl: Info Source control is disabled
-[2015.05.07-10.29.32:013][  0]SourceControl: Info Source control is disabled
-[2015.05.07-10.29.32:013][  0]SourceControl: Info Source control is disabled
-[2015.05.07-10.29.32:013][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.05.07-10.29.32:013][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.05.07-10.29.32:022][  0]SourceControl: Info Source control is disabled
-[2015.05.07-10.29.32:199][  0]LogObj: 24232 objects as part of root set at end of initial load.
-[2015.05.07-10.29.32:199][  0]LogUObjectAllocator: 5137168 out of 0 bytes used by permanent object pool.
-[2015.05.07-10.29.32:278][  0]LogEngine: Initializing Engine...
-[2015.05.07-10.29.34:439][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2015.05.07-10.29.34:463][  0]LogInit: FAudioDevice initialized.
-[2015.05.07-10.29.34:497][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.05.07-10.29.34:518][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Andrew/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.05.07-10.29.34:523][  0]LogInit: Texture streaming: Enabled
-[2015.05.07-10.29.34:611][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.05.07-10.29.34:611][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
-[2015.05.07-10.29.34:611][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
-[2015.05.07-10.29.34:611][  0]LogAnalytics: SetUserId 9e891dba4046b7eeca7f05b223fd9b2b|b8d5bfa13e8a4e8f863ee0918e2c304f|8ef4e312-8af3-4614-86da-62ce48622bb8
-[2015.05.07-10.29.34:611][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
-[2015.05.07-10.29.34:632][  0]LogInit: Transaction tracking system initialized
-[2015.05.07-10.29.34:794][  0]BlueprintLog: New page: Editor Load
-[2015.05.07-10.29.34:826][  0]LogAssetRegistry: FAssetRegistry took 0.0094 seconds to start up
-[2015.05.07-10.29.34:826][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.05.07-10.29.35:338][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.05.07-10.29.35:704][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.05.07-10.29.39:970][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
-[2015.05.07-10.29.39:970][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
-[2015.05.07-10.29.39:980][  0]LogConsoleResponse:Display: 
-[2015.05.07-10.29.40:102][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.05.07-10.29.40:244][  0]SourceControl: Info Source control is disabled
-[2015.05.07-10.29.40:259][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'StarterContent/StarterContent' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
-[2015.05.07-10.29.40:259][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'StarterContent/StarterContent' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
-[2015.05.07-10.29.40:259][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 X:/Programs/Epic Games/4.7/FeaturePacks/StarterContent.upack)
-[2015.05.07-10.29.48:743][  0]LogPackFactory: Content/StarterContent/Architecture/Floor_400x400.uasset (48141) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Architecture/Floor_400x400.uasset
-[2015.05.07-10.29.48:745][  0]LogPackFactory: Content/StarterContent/Architecture/Pillar_50x500.uasset (65452) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Architecture/Pillar_50x500.uasset
-[2015.05.07-10.29.48:747][  0]LogPackFactory: Content/StarterContent/Architecture/SM_AssetPlatform.uasset (452977) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Architecture/SM_AssetPlatform.uasset
-[2015.05.07-10.29.48:749][  0]LogPackFactory: Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset (441) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset
-[2015.05.07-10.29.48:751][  0]LogPackFactory: Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset (439) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset
-[2015.05.07-10.29.48:752][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x200.uasset (42169) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Architecture/Wall_400x200.uasset
-[2015.05.07-10.29.48:754][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x300.uasset (41804) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Architecture/Wall_400x300.uasset
-[2015.05.07-10.29.48:756][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x400.uasset (43426) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Architecture/Wall_400x400.uasset
-[2015.05.07-10.29.48:757][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_500x500.uasset (57909) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Architecture/Wall_500x500.uasset
-[2015.05.07-10.29.48:759][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Door_400x300.uasset (52430) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Architecture/Wall_Door_400x300.uasset
-[2015.05.07-10.29.48:761][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Door_400x400.uasset (53246) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Architecture/Wall_Door_400x400.uasset
-[2015.05.07-10.29.48:763][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Window_400x300.uasset (53709) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Architecture/Wall_Window_400x300.uasset
-[2015.05.07-10.29.48:764][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Window_400x400.uasset (54778) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Architecture/Wall_Window_400x400.uasset
-[2015.05.07-10.29.48:766][  0]LogPackFactory: Content/StarterContent/Audio/Collapse01.uasset (348532) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Audio/Collapse01.uasset
-[2015.05.07-10.29.48:769][  0]LogPackFactory: Content/StarterContent/Audio/Collapse02.uasset (346701) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Audio/Collapse02.uasset
-[2015.05.07-10.29.48:771][  0]LogPackFactory: Content/StarterContent/Audio/Collapse_Cue.uasset (6113) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Audio/Collapse_Cue.uasset
-[2015.05.07-10.29.48:773][  0]LogPackFactory: Content/StarterContent/Audio/Explosion01.uasset (282440) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Audio/Explosion01.uasset
-[2015.05.07-10.29.48:775][  0]LogPackFactory: Content/StarterContent/Audio/Explosion02.uasset (289195) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Audio/Explosion02.uasset
-[2015.05.07-10.29.48:777][  0]LogPackFactory: Content/StarterContent/Audio/Explosion_Cue.uasset (7657) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Audio/Explosion_Cue.uasset
-[2015.05.07-10.29.48:779][  0]LogPackFactory: Content/StarterContent/Audio/Fire01.uasset (549696) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Audio/Fire01.uasset
-[2015.05.07-10.29.48:781][  0]LogPackFactory: Content/StarterContent/Audio/Fire01_Cue.uasset (3894) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Audio/Fire01_Cue.uasset
-[2015.05.07-10.29.48:783][  0]LogPackFactory: Content/StarterContent/Audio/Fire_Sparks01.uasset (796274) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Audio/Fire_Sparks01.uasset
-[2015.05.07-10.29.48:785][  0]LogPackFactory: Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset (3908) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset
-[2015.05.07-10.29.48:786][  0]LogPackFactory: Content/StarterContent/Audio/Light01.uasset (364532) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Audio/Light01.uasset
-[2015.05.07-10.29.48:788][  0]LogPackFactory: Content/StarterContent/Audio/Light01_Cue.uasset (3852) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Audio/Light01_Cue.uasset
-[2015.05.07-10.29.48:790][  0]LogPackFactory: Content/StarterContent/Audio/Light02.uasset (308156) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Audio/Light02.uasset
-[2015.05.07-10.29.48:792][  0]LogPackFactory: Content/StarterContent/Audio/Light02_Cue.uasset (3852) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Audio/Light02_Cue.uasset
-[2015.05.07-10.29.48:793][  0]LogPackFactory: Content/StarterContent/Audio/Smoke01.uasset (476002) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Audio/Smoke01.uasset
-[2015.05.07-10.29.48:795][  0]LogPackFactory: Content/StarterContent/Audio/Smoke01_Cue.uasset (3872) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Audio/Smoke01_Cue.uasset
-[2015.05.07-10.29.48:797][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Background_Cue.uasset (9874) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Audio/Starter_Background_Cue.uasset
-[2015.05.07-10.29.48:798][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Birds01.uasset (2689459) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Audio/Starter_Birds01.uasset
-[2015.05.07-10.29.48:803][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Music01.uasset (8445372) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Audio/Starter_Music01.uasset
-[2015.05.07-10.29.48:810][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Music_Cue.uasset (3390) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Audio/Starter_Music_Cue.uasset
-[2015.05.07-10.29.48:811][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Wind05.uasset (2312702) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Audio/Starter_Wind05.uasset
-[2015.05.07-10.29.48:813][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Wind06.uasset (2195539) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Audio/Starter_Wind06.uasset
-[2015.05.07-10.29.48:815][  0]LogPackFactory: Content/StarterContent/Audio/Steam01.uasset (819028) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Audio/Steam01.uasset
-[2015.05.07-10.29.48:817][  0]LogPackFactory: Content/StarterContent/Audio/Steam01_Cue.uasset (3900) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Audio/Steam01_Cue.uasset
-[2015.05.07-10.29.48:818][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset (1011) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset
-[2015.05.07-10.29.48:819][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset (44857) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset
-[2015.05.07-10.29.48:820][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset (67062) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset
-[2015.05.07-10.29.48:821][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset (100458) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset
-[2015.05.07-10.29.48:822][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset (75669) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset
-[2015.05.07-10.29.48:823][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/Skybox.uasset (644855) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Blueprints/Assets/Skybox.uasset
-[2015.05.07-10.29.48:824][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset (520136) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset
-[2015.05.07-10.29.48:825][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset (1506) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset
-[2015.05.07-10.29.48:826][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset (66613) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
-[2015.05.07-10.29.48:827][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset (8324) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
-[2015.05.07-10.29.48:827][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset (8332) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
-[2015.05.07-10.29.48:828][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset (8346) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
-[2015.05.07-10.29.48:829][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset (8365) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
-[2015.05.07-10.29.48:830][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset (8354) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
-[2015.05.07-10.29.48:831][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset (52866) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
-[2015.05.07-10.29.48:831][  0]LogPackFactory: Content/StarterContent/Blueprints/BP_LightStudio.uasset (337416) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Blueprints/BP_LightStudio.uasset
-[2015.05.07-10.29.48:832][  0]LogPackFactory: Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset (72364642) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset
-[2015.05.07-10.29.48:935][  0]LogPackFactory: Content/StarterContent/Maps/Advanced_Lighting.umap (223408) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Maps/Advanced_Lighting.umap
-[2015.05.07-10.29.48:937][  0]LogPackFactory: Content/StarterContent/Maps/Minimal_Default.umap (2154106) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Maps/Minimal_Default.umap
-[2015.05.07-10.29.48:939][  0]LogPackFactory: Content/StarterContent/Maps/StarterMap.umap (16371806) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Maps/StarterMap.umap
-[2015.05.07-10.29.48:951][  0]LogPackFactory: Content/StarterContent/Materials/M_AssetPlatform.uasset (68672) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_AssetPlatform.uasset
-[2015.05.07-10.29.48:953][  0]LogPackFactory: Content/StarterContent/Materials/M_Basic_Floor.uasset (65286) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Basic_Floor.uasset
-[2015.05.07-10.29.48:954][  0]LogPackFactory: Content/StarterContent/Materials/M_Basic_Wall.uasset (55455) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Basic_Wall.uasset
-[2015.05.07-10.29.48:956][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset (100568) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset
-[2015.05.07-10.29.48:957][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_New.uasset (130734) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Brick_Clay_New.uasset
-[2015.05.07-10.29.48:958][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_Old.uasset (123390) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset
-[2015.05.07-10.29.48:959][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset (122803) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset
-[2015.05.07-10.29.48:960][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset (90915) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset
-[2015.05.07-10.29.48:960][  0]LogPackFactory: Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset (91562) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset
-[2015.05.07-10.29.48:961][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset (122364) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset
-[2015.05.07-10.29.48:962][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Rough.uasset (199387) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset
-[2015.05.07-10.29.48:964][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset (206806) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset
-[2015.05.07-10.29.48:965][  0]LogPackFactory: Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset (85099) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset
-[2015.05.07-10.29.48:966][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Grime.uasset (91620) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Concrete_Grime.uasset
-[2015.05.07-10.29.48:967][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Panels.uasset (102285) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Concrete_Panels.uasset
-[2015.05.07-10.29.48:967][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Poured.uasset (104859) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Concrete_Poured.uasset
-[2015.05.07-10.29.48:968][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Tiles.uasset (105831) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Concrete_Tiles.uasset
-[2015.05.07-10.29.48:969][  0]LogPackFactory: Content/StarterContent/Materials/M_Glass.uasset (48151) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Glass.uasset
-[2015.05.07-10.29.48:970][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Grass.uasset (95378) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Ground_Grass.uasset
-[2015.05.07-10.29.48:971][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Gravel.uasset (120447) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Ground_Gravel.uasset
-[2015.05.07-10.29.48:972][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Moss.uasset (128000) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Ground_Moss.uasset
-[2015.05.07-10.29.48:973][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset (79826) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset
-[2015.05.07-10.29.48:974][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset (97779) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset
-[2015.05.07-10.29.48:975][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Chrome.uasset (79618) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Metal_Chrome.uasset
-[2015.05.07-10.29.48:975][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Copper.uasset (94475) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Metal_Copper.uasset
-[2015.05.07-10.29.48:976][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Gold.uasset (96084) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Metal_Gold.uasset
-[2015.05.07-10.29.48:978][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Rust.uasset (109365) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Metal_Rust.uasset
-[2015.05.07-10.29.48:978][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Steel.uasset (96230) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Metal_Steel.uasset
-[2015.05.07-10.29.48:979][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Basalt.uasset (121462) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Rock_Basalt.uasset
-[2015.05.07-10.29.48:980][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset (98409) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset
-[2015.05.07-10.29.48:981][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Sandstone.uasset (113552) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Rock_Sandstone.uasset
-[2015.05.07-10.29.48:982][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Slate.uasset (110874) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Rock_Slate.uasset
-[2015.05.07-10.29.48:983][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset (98373) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset
-[2015.05.07-10.29.48:983][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset (140303) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset
-[2015.05.07-10.29.48:984][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset (115223) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset
-[2015.05.07-10.29.48:985][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Panel.uasset (98003) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Tech_Panel.uasset
-[2015.05.07-10.29.48:986][  0]LogPackFactory: Content/StarterContent/Materials/M_Water_Lake.uasset (96267) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Water_Lake.uasset
-[2015.05.07-10.29.48:987][  0]LogPackFactory: Content/StarterContent/Materials/M_Water_Ocean.uasset (100717) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Water_Ocean.uasset
-[2015.05.07-10.29.48:988][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset (82816) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset
-[2015.05.07-10.29.48:988][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset (100628) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset
-[2015.05.07-10.29.48:989][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Oak.uasset (107121) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Wood_Oak.uasset
-[2015.05.07-10.29.48:990][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Pine.uasset (97740) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Wood_Pine.uasset
-[2015.05.07-10.29.48:991][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Walnut.uasset (93022) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Materials/M_Wood_Walnut.uasset
-[2015.05.07-10.29.48:992][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Burst.uasset (43524) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Particles/Materials/M_Burst.uasset
-[2015.05.07-10.29.48:993][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset (40952) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset
-[2015.05.07-10.29.48:994][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset (62151) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset
-[2015.05.07-10.29.48:995][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset (62224) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset
-[2015.05.07-10.29.48:996][  0]LogPackFactory: Content/StarterContent/Particles/Materials/m_flare_01.uasset (48172) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Particles/Materials/m_flare_01.uasset
-[2015.05.07-10.29.48:997][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset (38287) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset
-[2015.05.07-10.29.48:997][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset (41181) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset
-[2015.05.07-10.29.48:998][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_radial_ramp.uasset (41193) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset
-[2015.05.07-10.29.48:999][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset (76603) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset
-[2015.05.07-10.29.49:000][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Spark.uasset (43678) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Particles/Materials/M_Spark.uasset
-[2015.05.07-10.29.49:001][  0]LogPackFactory: Content/StarterContent/Particles/P_Ambient_Dust.uasset (43456) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Particles/P_Ambient_Dust.uasset
-[2015.05.07-10.29.49:002][  0]LogPackFactory: Content/StarterContent/Particles/P_Explosion.uasset (280221) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Particles/P_Explosion.uasset
-[2015.05.07-10.29.49:004][  0]LogPackFactory: Content/StarterContent/Particles/P_Fire.uasset (259431) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Particles/P_Fire.uasset
-[2015.05.07-10.29.49:004][  0]LogPackFactory: Content/StarterContent/Particles/P_Smoke.uasset (65670) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Particles/P_Smoke.uasset
-[2015.05.07-10.29.49:005][  0]LogPackFactory: Content/StarterContent/Particles/P_Sparks.uasset (171805) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Particles/P_Sparks.uasset
-[2015.05.07-10.29.49:006][  0]LogPackFactory: Content/StarterContent/Particles/P_Steam_Lit.uasset (117332) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Particles/P_Steam_Lit.uasset
-[2015.05.07-10.29.49:007][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Bush.uasset (99988) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/Materials/M_Bush.uasset
-[2015.05.07-10.29.49:008][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Chair.uasset (90187) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/Materials/M_Chair.uasset
-[2015.05.07-10.29.49:009][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Door.uasset (87249) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/Materials/M_Door.uasset
-[2015.05.07-10.29.49:010][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Frame.uasset (78682) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/Materials/M_Frame.uasset
-[2015.05.07-10.29.49:011][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Lamp.uasset (90486) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/Materials/M_Lamp.uasset
-[2015.05.07-10.29.49:012][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_MaterialSphere.uasset (66766) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset
-[2015.05.07-10.29.49:013][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset (58832) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset
-[2015.05.07-10.29.49:014][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Rock.uasset (114715) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/Materials/M_Rock.uasset
-[2015.05.07-10.29.49:015][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Shelf.uasset (78255) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/Materials/M_Shelf.uasset
-[2015.05.07-10.29.49:016][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Statue.uasset (72790) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/Materials/M_Statue.uasset
-[2015.05.07-10.29.49:016][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_StatueGlass.uasset (56436) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/Materials/M_StatueGlass.uasset
-[2015.05.07-10.29.49:017][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_TableRound.uasset (89531) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/Materials/M_TableRound.uasset
-[2015.05.07-10.29.49:019][  0]LogPackFactory: Content/StarterContent/Props/MaterialSphere.uasset (174533) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/MaterialSphere.uasset
-[2015.05.07-10.29.49:020][  0]LogPackFactory: Content/StarterContent/Props/SM_Bush.uasset (152902) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/SM_Bush.uasset
-[2015.05.07-10.29.49:021][  0]LogPackFactory: Content/StarterContent/Props/SM_Chair.uasset (213058) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/SM_Chair.uasset
-[2015.05.07-10.29.49:022][  0]LogPackFactory: Content/StarterContent/Props/SM_CornerFrame.uasset (104587) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/SM_CornerFrame.uasset
-[2015.05.07-10.29.49:023][  0]LogPackFactory: Content/StarterContent/Props/SM_Couch.uasset (254658) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/SM_Couch.uasset
-[2015.05.07-10.29.49:024][  0]LogPackFactory: Content/StarterContent/Props/SM_Door.uasset (214917) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/SM_Door.uasset
-[2015.05.07-10.29.49:025][  0]LogPackFactory: Content/StarterContent/Props/SM_DoorFrame.uasset (65546) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/SM_DoorFrame.uasset
-[2015.05.07-10.29.49:025][  0]LogPackFactory: Content/StarterContent/Props/SM_GlassWindow.uasset (97538) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/SM_GlassWindow.uasset
-[2015.05.07-10.29.49:026][  0]LogPackFactory: Content/StarterContent/Props/SM_Lamp_Ceiling.uasset (318571) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset
-[2015.05.07-10.29.49:027][  0]LogPackFactory: Content/StarterContent/Props/SM_Lamp_Wall.uasset (140246) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/SM_Lamp_Wall.uasset
-[2015.05.07-10.29.49:028][  0]LogPackFactory: Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset (2396647) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset
-[2015.05.07-10.29.49:031][  0]LogPackFactory: Content/StarterContent/Props/SM_PillarFrame.uasset (127007) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/SM_PillarFrame.uasset
-[2015.05.07-10.29.49:033][  0]LogPackFactory: Content/StarterContent/Props/SM_PillarFrame300.uasset (124350) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/SM_PillarFrame300.uasset
-[2015.05.07-10.29.49:034][  0]LogPackFactory: Content/StarterContent/Props/SM_Rock.uasset (175516) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/SM_Rock.uasset
-[2015.05.07-10.29.49:035][  0]LogPackFactory: Content/StarterContent/Props/SM_Shelf.uasset (108862) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/SM_Shelf.uasset
-[2015.05.07-10.29.49:036][  0]LogPackFactory: Content/StarterContent/Props/SM_Stairs.uasset (66807) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/SM_Stairs.uasset
-[2015.05.07-10.29.49:037][  0]LogPackFactory: Content/StarterContent/Props/SM_Statue.uasset (537153) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/SM_Statue.uasset
-[2015.05.07-10.29.49:038][  0]LogPackFactory: Content/StarterContent/Props/SM_TableRound.uasset (528732) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/SM_TableRound.uasset
-[2015.05.07-10.29.49:039][  0]LogPackFactory: Content/StarterContent/Props/SM_WindowFrame.uasset (68758) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Props/SM_WindowFrame.uasset
-[2015.05.07-10.29.49:040][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cone.uasset (94233) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Shapes/Shape_Cone.uasset
-[2015.05.07-10.29.49:041][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cube.uasset (45498) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Shapes/Shape_Cube.uasset
-[2015.05.07-10.29.49:042][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cylinder.uasset (109276) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Shapes/Shape_Cylinder.uasset
-[2015.05.07-10.29.49:043][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset (211325) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset
-[2015.05.07-10.29.49:044][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe.uasset (78407) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Shapes/Shape_Pipe.uasset
-[2015.05.07-10.29.49:045][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe_180.uasset (193692) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Shapes/Shape_Pipe_180.uasset
-[2015.05.07-10.29.49:046][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe_90.uasset (120200) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Shapes/Shape_Pipe_90.uasset
-[2015.05.07-10.29.49:047][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Plane.uasset (43121) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Shapes/Shape_Plane.uasset
-[2015.05.07-10.29.49:048][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_QuadPyramid.uasset (43744) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset
-[2015.05.07-10.29.49:049][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Sphere.uasset (264634) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Shapes/Shape_Sphere.uasset
-[2015.05.07-10.29.49:049][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Torus.uasset (558042) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Shapes/Shape_Torus.uasset
-[2015.05.07-10.29.49:051][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim.uasset (51867) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Shapes/Shape_Trim.uasset
-[2015.05.07-10.29.49:051][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim_90_In.uasset (74804) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset
-[2015.05.07-10.29.49:052][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset (75706) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset
-[2015.05.07-10.29.49:053][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_TriPyramid.uasset (41629) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Shapes/Shape_TriPyramid.uasset
-[2015.05.07-10.29.49:054][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Tube.uasset (190123) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Shapes/Shape_Tube.uasset
-[2015.05.07-10.29.49:055][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Wedge_A.uasset (45020) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Shapes/Shape_Wedge_A.uasset
-[2015.05.07-10.29.49:056][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Wedge_B.uasset (40642) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Shapes/Shape_Wedge_B.uasset
-[2015.05.07-10.29.49:057][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_WideCapsule.uasset (150007) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Shapes/Shape_WideCapsule.uasset
-[2015.05.07-10.29.49:058][  0]LogPackFactory: Content/StarterContent/Textures/Metal_Tile_2.uasset (446) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/Metal_Tile_2.uasset
-[2015.05.07-10.29.49:059][  0]LogPackFactory: Content/StarterContent/Textures/Metal_Tile_2_N.uasset (450) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/Metal_Tile_2_N.uasset
-[2015.05.07-10.29.49:060][  0]LogPackFactory: Content/StarterContent/Textures/Sky54a2048.uasset (446) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/Sky54a2048.uasset
-[2015.05.07-10.29.49:061][  0]LogPackFactory: Content/StarterContent/Textures/Sky54a2048LDR.uasset (449) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/Sky54a2048LDR.uasset
-[2015.05.07-10.29.49:061][  0]LogPackFactory: Content/StarterContent/Textures/T_ArmorMetal01.uasset (450) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_ArmorMetal01.uasset
-[2015.05.07-10.29.49:062][  0]LogPackFactory: Content/StarterContent/Textures/T_ArmorMetal01_N.uasset (452) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_ArmorMetal01_N.uasset
-[2015.05.07-10.29.49:063][  0]LogPackFactory: Content/StarterContent/Textures/T_Bark02_D.uasset (446) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Bark02_D.uasset
-[2015.05.07-10.29.49:063][  0]LogPackFactory: Content/StarterContent/Textures/T_Bark02_N.uasset (446) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Bark02_N.uasset
-[2015.05.07-10.29.49:064][  0]LogPackFactory: Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset (455) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset
-[2015.05.07-10.29.49:065][  0]LogPackFactory: Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset (455) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset
-[2015.05.07-10.29.49:066][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset (7649619) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset
-[2015.05.07-10.29.49:071][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset (8326301) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset
-[2015.05.07-10.29.49:077][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset (7553391) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset
-[2015.05.07-10.29.49:082][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset (6035708) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset
-[2015.05.07-10.29.49:087][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset (9201530) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset
-[2015.05.07-10.29.49:093][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset (7865847) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset
-[2015.05.07-10.29.49:099][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset (11424774) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset
-[2015.05.07-10.29.49:106][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset (7794699) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset
-[2015.05.07-10.29.49:112][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset (13386492) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset
-[2015.05.07-10.29.49:120][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset (6679434) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset
-[2015.05.07-10.29.49:125][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset (7446677) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset
-[2015.05.07-10.29.49:131][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset (6802269) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset
-[2015.05.07-10.29.49:136][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset (8992435) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset
-[2015.05.07-10.29.49:142][  0]LogPackFactory: Content/StarterContent/Textures/T_Burst_M.uasset (150025) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Burst_M.uasset
-[2015.05.07-10.29.49:143][  0]LogPackFactory: Content/StarterContent/Textures/T_Bush_D.uasset (552540) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Bush_D.uasset
-[2015.05.07-10.29.49:144][  0]LogPackFactory: Content/StarterContent/Textures/T_Bush_N.uasset (396574) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Bush_N.uasset
-[2015.05.07-10.29.49:145][  0]LogPackFactory: Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset (277243) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset
-[2015.05.07-10.29.49:146][  0]LogPackFactory: Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset (228293) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset
-[2015.05.07-10.29.49:147][  0]LogPackFactory: Content/StarterContent/Textures/T_Chair_M.uasset (576769) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Chair_M.uasset
-[2015.05.07-10.29.49:148][  0]LogPackFactory: Content/StarterContent/Textures/T_Chair_N.uasset (1937145) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Chair_N.uasset
-[2015.05.07-10.29.49:150][  0]LogPackFactory: Content/StarterContent/Textures/T_Checker_Noise_M.uasset (158406) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Checker_Noise_M.uasset
-[2015.05.07-10.29.49:151][  0]LogPackFactory: Content/StarterContent/Textures/T_Cliff_M.uasset (432) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Cliff_M.uasset
-[2015.05.07-10.29.49:152][  0]LogPackFactory: Content/StarterContent/Textures/T_Cliff_N.uasset (432) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Cliff_N.uasset
-[2015.05.07-10.29.49:153][  0]LogPackFactory: Content/StarterContent/Textures/T_Cobble_01_H.uasset (449) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Cobble_01_H.uasset
-[2015.05.07-10.29.49:154][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleDark_01_D.uasset (453) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_CobbleDark_01_D.uasset
-[2015.05.07-10.29.49:154][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_D.uasset (454) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_CobbleStone_04_D.uasset
-[2015.05.07-10.29.49:155][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_N.uasset (454) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_CobbleStone_04_N.uasset
-[2015.05.07-10.29.49:156][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_R.uasset (454) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_CobbleStone_04_R.uasset
-[2015.05.07-10.29.49:157][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset (455) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset
-[2015.05.07-10.29.49:158][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset (11812314) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset
-[2015.05.07-10.29.49:166][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset (1313598) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset
-[2015.05.07-10.29.49:168][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset (11858728) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset
-[2015.05.07-10.29.49:176][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset (2936250) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset
-[2015.05.07-10.29.49:178][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset (2700400) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset
-[2015.05.07-10.29.49:180][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset (6603341) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset
-[2015.05.07-10.29.49:185][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset (5739577) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset
-[2015.05.07-10.29.49:189][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset (8846507) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset
-[2015.05.07-10.29.49:195][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete01_D.uasset (450) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Concrete01_D.uasset
-[2015.05.07-10.29.49:197][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete01_N.uasset (450) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Concrete01_N.uasset
-[2015.05.07-10.29.49:198][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_01_D.uasset (451) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Concrete_01_D.uasset
-[2015.05.07-10.29.49:199][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_01_N.uasset (451) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Concrete_01_N.uasset
-[2015.05.07-10.29.49:199][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_D.uasset (448) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Concrete_D.uasset
-[2015.05.07-10.29.49:201][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Floor01.uasset (454) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Concrete_Floor01.uasset
-[2015.05.07-10.29.49:201][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset (456) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset
-[2015.05.07-10.29.49:202][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Grime_D.uasset (10691506) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset
-[2015.05.07-10.29.49:209][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_N.uasset (448) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Concrete_N.uasset
-[2015.05.07-10.29.49:210][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Panels_D.uasset (8513286) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset
-[2015.05.07-10.29.49:216][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Panels_N.uasset (6558914) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset
-[2015.05.07-10.29.49:221][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Poured_D.uasset (11600993) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset
-[2015.05.07-10.29.49:229][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Poured_N.uasset (7452814) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset
-[2015.05.07-10.29.49:234][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset (4956380) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset
-[2015.05.07-10.29.49:238][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset (5759659) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset
-[2015.05.07-10.29.49:242][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset (6611650) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset
-[2015.05.07-10.29.49:247][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset (4809) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset
-[2015.05.07-10.29.49:248][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall07.uasset (453) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Concrete_Wall07.uasset
-[2015.05.07-10.29.49:249][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset (455) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset
-[2015.05.07-10.29.49:250][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall_D.uasset (453) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Concrete_Wall_D.uasset
-[2015.05.07-10.29.49:250][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall_N.uasset (453) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Concrete_Wall_N.uasset
-[2015.05.07-10.29.49:251][  0]LogPackFactory: Content/StarterContent/Textures/T_DesertCrystal01_N.uasset (455) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_DesertCrystal01_N.uasset
-[2015.05.07-10.29.49:252][  0]LogPackFactory: Content/StarterContent/Textures/T_Detail_Rocky_N.uasset (2850093) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset
-[2015.05.07-10.29.49:254][  0]LogPackFactory: Content/StarterContent/Textures/T_Dirt_D.uasset (444) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Dirt_D.uasset
-[2015.05.07-10.29.49:255][  0]LogPackFactory: Content/StarterContent/Textures/T_Dirt_N.uasset (444) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Dirt_N.uasset
-[2015.05.07-10.29.49:256][  0]LogPackFactory: Content/StarterContent/Textures/T_Door_M.uasset (554190) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Door_M.uasset
-[2015.05.07-10.29.49:257][  0]LogPackFactory: Content/StarterContent/Textures/T_Door_N.uasset (1074859) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Door_N.uasset
-[2015.05.07-10.29.49:258][  0]LogPackFactory: Content/StarterContent/Textures/T_Dust_Particle_D.uasset (32071) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Dust_Particle_D.uasset
-[2015.05.07-10.29.49:259][  0]LogPackFactory: Content/StarterContent/Textures/T_Explosion_SubUV.uasset (3004336) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Explosion_SubUV.uasset
-[2015.05.07-10.29.49:261][  0]LogPackFactory: Content/StarterContent/Textures/T_Fire_SubUV.uasset (525012) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Fire_SubUV.uasset
-[2015.05.07-10.29.49:263][  0]LogPackFactory: Content/StarterContent/Textures/T_Fire_Tiled_D.uasset (553370) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset
-[2015.05.07-10.29.49:264][  0]LogPackFactory: Content/StarterContent/Textures/T_Frame_M.uasset (536068) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Frame_M.uasset
-[2015.05.07-10.29.49:265][  0]LogPackFactory: Content/StarterContent/Textures/T_Frame_N.uasset (1249187) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Frame_N.uasset
-[2015.05.07-10.29.49:266][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset (461) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset
-[2015.05.07-10.29.49:267][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset (463) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset
-[2015.05.07-10.29.49:268][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset (463) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset
-[2015.05.07-10.29.49:268][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset (463) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset
-[2015.05.07-10.29.49:269][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset (462) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset
-[2015.05.07-10.29.49:270][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset (464) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset
-[2015.05.07-10.29.49:271][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset (462) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset
-[2015.05.07-10.29.49:271][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset (464) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset
-[2015.05.07-10.29.49:272][  0]LogPackFactory: Content/StarterContent/Textures/T_Gradinet_01.uasset (5447) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Gradinet_01.uasset
-[2015.05.07-10.29.49:273][  0]LogPackFactory: Content/StarterContent/Textures/T_Gravel_D.uasset (425) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Gravel_D.uasset
-[2015.05.07-10.29.49:273][  0]LogPackFactory: Content/StarterContent/Textures/T_Gravel_N.uasset (425) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Gravel_N.uasset
-[2015.05.07-10.29.49:274][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_01_D.uasset (449) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Ground_01_D.uasset
-[2015.05.07-10.29.49:275][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_01_N.uasset (449) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Ground_01_N.uasset
-[2015.05.07-10.29.49:276][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_02_D.uasset (449) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Ground_02_D.uasset
-[2015.05.07-10.29.49:277][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_02_N.uasset (449) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Ground_02_N.uasset
-[2015.05.07-10.29.49:277][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Detail_N.uasset (453) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Ground_Detail_N.uasset
-[2015.05.07-10.29.49:278][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Dirt_D.uasset (451) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Ground_Dirt_D.uasset
-[2015.05.07-10.29.49:279][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Dirt_N.uasset (451) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Ground_Dirt_N.uasset
-[2015.05.07-10.29.49:280][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Grass_D.uasset (12014827) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Ground_Grass_D.uasset
-[2015.05.07-10.29.49:287][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Grass_N.uasset (11617917) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Ground_Grass_N.uasset
-[2015.05.07-10.29.49:295][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Gravel_D.uasset (10627659) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset
-[2015.05.07-10.29.49:301][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Gravel_N.uasset (7408581) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset
-[2015.05.07-10.29.49:307][  0]LogPackFactory: Content/StarterContent/Textures/T_ground_Moss_D.uasset (13034653) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_ground_Moss_D.uasset
-[2015.05.07-10.29.49:315][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Moss_N.uasset (8389816) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Ground_Moss_N.uasset
-[2015.05.07-10.29.49:321][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Noise_N.uasset (431) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Ground_Noise_N.uasset
-[2015.05.07-10.29.49:322][  0]LogPackFactory: Content/StarterContent/Textures/T_Lamp_M.uasset (781809) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Lamp_M.uasset
-[2015.05.07-10.29.49:323][  0]LogPackFactory: Content/StarterContent/Textures/T_Lamp_N.uasset (2076923) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Lamp_N.uasset
-[2015.05.07-10.29.49:325][  0]LogPackFactory: Content/StarterContent/Textures/T_MacroVariation.uasset (10882792) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_MacroVariation.uasset
-[2015.05.07-10.29.49:334][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset (9680629) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset
-[2015.05.07-10.29.49:343][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Copper_D.uasset (8854788) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Metal_Copper_D.uasset
-[2015.05.07-10.29.49:353][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset (460) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset
-[2015.05.07-10.29.49:354][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset (460) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset
-[2015.05.07-10.29.49:355][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Gold_D.uasset (8838906) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Metal_Gold_D.uasset
-[2015.05.07-10.29.49:365][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Gold_N.uasset (2813572) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Metal_Gold_N.uasset
-[2015.05.07-10.29.49:368][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal01_D.uasset (453) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Metal_Metal01_D.uasset
-[2015.05.07-10.29.49:369][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal01_N.uasset (453) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Metal_Metal01_N.uasset
-[2015.05.07-10.29.49:370][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal03_D.uasset (453) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Metal_Metal03_D.uasset
-[2015.05.07-10.29.49:370][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal03_N.uasset (453) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Metal_Metal03_N.uasset
-[2015.05.07-10.29.49:371][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset (456) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset
-[2015.05.07-10.29.49:372][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset (456) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset
-[2015.05.07-10.29.49:373][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset (453) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset
-[2015.05.07-10.29.49:374][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset (453) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset
-[2015.05.07-10.29.49:375][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_D.uasset (9329320) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Metal_Rust_D.uasset
-[2015.05.07-10.29.49:383][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_N.uasset (7504761) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Metal_Rust_N.uasset
-[2015.05.07-10.29.49:390][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset (453) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset
-[2015.05.07-10.29.49:391][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset (453) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset
-[2015.05.07-10.29.49:391][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Steel_D.uasset (3581726) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Metal_Steel_D.uasset
-[2015.05.07-10.29.49:395][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Steel_N.uasset (4922590) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Metal_Steel_N.uasset
-[2015.05.07-10.29.49:412][  0]LogPackFactory: Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset (456) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset
-[2015.05.07-10.29.49:415][  0]LogPackFactory: Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset (456) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset
-[2015.05.07-10.29.49:416][  0]LogPackFactory: Content/StarterContent/Textures/T_PaintedMetal01.uasset (452) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_PaintedMetal01.uasset
-[2015.05.07-10.29.49:417][  0]LogPackFactory: Content/StarterContent/Textures/T_PaintedMetal01_N.uasset (454) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_PaintedMetal01_N.uasset
-[2015.05.07-10.29.49:418][  0]LogPackFactory: Content/StarterContent/Textures/T_PatchyGrass_D.uasset (451) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_PatchyGrass_D.uasset
-[2015.05.07-10.29.49:418][  0]LogPackFactory: Content/StarterContent/Textures/T_PatchyGrass_N.uasset (451) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_PatchyGrass_N.uasset
-[2015.05.07-10.29.49:419][  0]LogPackFactory: Content/StarterContent/Textures/T_Perlin_Noise_M.uasset (7869402) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset
-[2015.05.07-10.29.49:465][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_01_D.uasset (447) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_01_D.uasset
-[2015.05.07-10.29.49:466][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_01_N.uasset (447) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_01_N.uasset
-[2015.05.07-10.29.49:467][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_03_D.uasset (447) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_03_D.uasset
-[2015.05.07-10.29.49:468][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_03_N.uasset (447) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_03_N.uasset
-[2015.05.07-10.29.49:468][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_05_D.uasset (447) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_05_D.uasset
-[2015.05.07-10.29.49:469][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_05_N.uasset (447) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_05_N.uasset
-[2015.05.07-10.29.49:470][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_06_D.uasset (447) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_06_D.uasset
-[2015.05.07-10.29.49:471][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_06_N.uasset (447) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_06_N.uasset
-[2015.05.07-10.29.49:472][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07_D.uasset (447) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_07_D.uasset
-[2015.05.07-10.29.49:472][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07_N.uasset (447) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_07_N.uasset
-[2015.05.07-10.29.49:473][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07b_D.uasset (448) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_07b_D.uasset
-[2015.05.07-10.29.49:474][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_08_D.uasset (447) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_08_D.uasset
-[2015.05.07-10.29.49:475][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_08_N.uasset (447) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_08_N.uasset
-[2015.05.07-10.29.49:476][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_09_D.uasset (447) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_09_D.uasset
-[2015.05.07-10.29.49:477][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_10_D.uasset (447) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_10_D.uasset
-[2015.05.07-10.29.49:477][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_10_N.uasset (447) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_10_N.uasset
-[2015.05.07-10.29.49:478][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_11b_D.uasset (448) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_11b_D.uasset
-[2015.05.07-10.29.49:480][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Basalt_D.uasset (9359943) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset
-[2015.05.07-10.29.49:522][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Basalt_N.uasset (7847129) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset
-[2015.05.07-10.29.49:543][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset (454) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset
-[2015.05.07-10.29.49:546][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset (454) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset
-[2015.05.07-10.29.49:547][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset (454) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset
-[2015.05.07-10.29.49:548][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset (5327483) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset
-[2015.05.07-10.29.49:571][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset (9234423) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset
-[2015.05.07-10.29.49:605][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset (8399811) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset
-[2015.05.07-10.29.49:645][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Slate_D.uasset (12333988) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_Slate_D.uasset
-[2015.05.07-10.29.49:796][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Slate_N.uasset (9649859) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_Slate_N.uasset
-[2015.05.07-10.29.50:025][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset (8829490) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset
-[2015.05.07-10.29.50:181][  0]LogPackFactory: Content/StarterContent/Textures/T_RockMesh_M.uasset (2706973) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_RockMesh_M.uasset
-[2015.05.07-10.29.50:183][  0]LogPackFactory: Content/StarterContent/Textures/T_RockMesh_N.uasset (5375053) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_RockMesh_N.uasset
-[2015.05.07-10.29.50:187][  0]LogPackFactory: Content/StarterContent/Textures/T_Rocky_01_N.uasset (448) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Rocky_01_N.uasset
-[2015.05.07-10.29.50:188][  0]LogPackFactory: Content/StarterContent/Textures/T_Shelf_M.uasset (651298) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Shelf_M.uasset
-[2015.05.07-10.29.50:190][  0]LogPackFactory: Content/StarterContent/Textures/T_Shelf_N.uasset (1639501) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Shelf_N.uasset
-[2015.05.07-10.29.50:191][  0]LogPackFactory: Content/StarterContent/Textures/T_Single_Tile_N.uasset (6402) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Single_Tile_N.uasset
-[2015.05.07-10.29.50:192][  0]LogPackFactory: Content/StarterContent/Textures/T_Sky_Clouds_M.uasset (450) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Sky_Clouds_M.uasset
-[2015.05.07-10.29.50:193][  0]LogPackFactory: Content/StarterContent/Textures/T_Sky_Stars.uasset (447) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Sky_Stars.uasset
-[2015.05.07-10.29.50:194][  0]LogPackFactory: Content/StarterContent/Textures/T_Smoke_SubUV.uasset (2630744) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Smoke_SubUV.uasset
-[2015.05.07-10.29.50:197][  0]LogPackFactory: Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset (91431) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset
-[2015.05.07-10.29.50:198][  0]LogPackFactory: Content/StarterContent/Textures/T_Spark_Core.uasset (162316) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Spark_Core.uasset
-[2015.05.07-10.29.50:199][  0]LogPackFactory: Content/StarterContent/Textures/T_Statue_M.uasset (546786) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Statue_M.uasset
-[2015.05.07-10.29.50:200][  0]LogPackFactory: Content/StarterContent/Textures/T_Statue_N.uasset (515360) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Statue_N.uasset
-[2015.05.07-10.29.50:201][  0]LogPackFactory: Content/StarterContent/Textures/T_Stone_Brick_D.uasset (451) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Stone_Brick_D.uasset
-[2015.05.07-10.29.50:202][  0]LogPackFactory: Content/StarterContent/Textures/T_Stone_Brick_N.uasset (451) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Stone_Brick_N.uasset
-[2015.05.07-10.29.50:203][  0]LogPackFactory: Content/StarterContent/Textures/T_TableRound_M.uasset (870486) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_TableRound_M.uasset
-[2015.05.07-10.29.50:204][  0]LogPackFactory: Content/StarterContent/Textures/T_TableRound_N.uasset (1549086) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_TableRound_N.uasset
-[2015.05.07-10.29.50:206][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Dot_M.uasset (107174) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Tech_Dot_M.uasset
-[2015.05.07-10.29.50:207][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Dot_N.uasset (202333) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Tech_Dot_N.uasset
-[2015.05.07-10.29.50:208][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset (793459) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset
-[2015.05.07-10.29.50:209][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset (493875) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset
-[2015.05.07-10.29.50:210][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Panel_M.uasset (979689) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Tech_Panel_M.uasset
-[2015.05.07-10.29.50:211][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Panel_N.uasset (1860674) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Tech_Panel_N.uasset
-[2015.05.07-10.29.50:213][  0]LogPackFactory: Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset (461) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset
-[2015.05.07-10.29.50:251][  0]LogPackFactory: Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset (461) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset
-[2015.05.07-10.29.50:252][  0]LogPackFactory: Content/StarterContent/Textures/T_UNV_Concrete02.uasset (452) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_UNV_Concrete02.uasset
-[2015.05.07-10.29.50:253][  0]LogPackFactory: Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset (454) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset
-[2015.05.07-10.29.50:254][  0]LogPackFactory: Content/StarterContent/Textures/T_Water_M.uasset (1696467) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Water_M.uasset
-[2015.05.07-10.29.50:255][  0]LogPackFactory: Content/StarterContent/Textures/T_Water_N.uasset (2087420) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Water_N.uasset
-[2015.05.07-10.29.50:257][  0]LogPackFactory: Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset (459) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset
-[2015.05.07-10.29.50:258][  0]LogPackFactory: Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset (459) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset
-[2015.05.07-10.29.50:258][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_a_d.uasset (446) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Wood_a_d.uasset
-[2015.05.07-10.29.50:259][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_A_N.uasset (446) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Wood_A_N.uasset
-[2015.05.07-10.29.50:260][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_A_S.uasset (446) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Wood_A_S.uasset
-[2015.05.07-10.29.50:261][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset (4584206) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset
-[2015.05.07-10.29.50:264][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset (3940729) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset
-[2015.05.07-10.29.50:268][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset (2858538) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset
-[2015.05.07-10.29.50:270][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Oak_D.uasset (6707252) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Wood_Oak_D.uasset
-[2015.05.07-10.29.50:275][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Oak_N.uasset (6245295) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Wood_Oak_N.uasset
-[2015.05.07-10.29.50:280][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Pine_D.uasset (9690724) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Wood_Pine_D.uasset
-[2015.05.07-10.29.50:677][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Pine_N.uasset (3467174) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Wood_Pine_N.uasset
-[2015.05.07-10.29.50:923][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Walnut_D.uasset (6509713) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset
-[2015.05.07-10.29.51:021][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Walnut_N.uasset (3836013) -> ../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset
-[2015.05.07-10.29.51:027][  0]LogPackFactory: Finished extracting 750 files (including 0 errors).
-[2015.05.07-10.30.05:825][  0]LogRenderer:Warning: Reallocating scene render targets to support 256x256 (Frame:2).
-[2015.05.07-10.30.06:313][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
-[2015.05.07-10.30.06:853][  0]LogSavePackage: Save=447.788361ms
-[2015.05.07-10.30.06:853][  0]LogSavePackage: Moving '../../../../../../Workspace/Telefour/Telefour/Saved/Floor_400x4000FFCFCA649A8D49E5958A98CDBD185AE.tmp' to '../../../../../../Workspace/Telefour/Telefour/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2015.05.07-10.30.06:912][  0]LogFeaturePack:Warning: Inserted 1 feature packs
-[2015.05.07-10.30.06:975][  0]Cmd: MAP LOAD FILE="../../../../../../Workspace/Telefour/Telefour/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.05.07-10.30.07:007][  0]LightingResults: New page: Lighting Build
-[2015.05.07-10.30.07:289][  0]MapCheck: New page: Map Check
-[2015.05.07-10.30.07:289][  0]LightingResults: New page: Lighting Build
-[2015.05.07-10.30.07:655][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013526520
-[2015.05.07-10.30.08:015][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.05.07-10.30.12:102][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.05.07-10.30.12:992][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2015.05.07-10.30.13:032][  0]Cmd: MAP CHECKDEP
-[2015.05.07-10.30.13:043][  0]MapCheck: New page: FirstPersonExampleMap - May 8, 2015, 6:30:13 AM
-[2015.05.07-10.30.13:182][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 150.032ms to complete.
-[2015.05.07-10.30.13:182][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 6.258
-[2015.05.07-10.30.15:753][  0]LogCollectionManager: Loaded 0 collections in 0.001704 seconds
-[2015.05.07-10.30.15:809][  0]LogContentBrowser: Native class hierarchy populated in 0.0560 seconds. Added 1696 classes and 261 folders.
-[2015.05.07-10.30.16:089][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
-[2015.05.07-10.30.16:898][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.05.07-10.30.17:026][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
-[2015.05.07-10.30.17:215][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.05.07-10.30.17:375][  0]LogLoad: Full Startup: 52.23 seconds (BP compile: 1.08 seconds)
-[2015.05.07-10.30.17:987][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP'
-[2015.05.07-10.30.21:433][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:3).
-[2015.05.07-10.30.23:263][  6]LogAssetRegistry: Asset discovery search completed in 48.4464 seconds
-[2015.05.07-10.30.26:779][163]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
-[2015.05.07-10.30.28:086][203]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.05.07-10.30.28:087][203]PIE: New page: PIE session: FirstPersonExampleMap (May 8, 2015, 6:30:28 AM)
-[2015.05.07-10.30.28:159][203]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071679s)
-[2015.05.07-10.30.28:159][203]LogPlayLevel: PIE: World Init took: (0.000589s)
-[2015.05.07-10.30.28:160][203]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.072701s)
-[2015.05.07-10.30.28:433][203]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2015.05.07-10.30.28:654][203]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2015.05.07-10.30.28:668][203]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.07-20.30.28
-[2015.05.07-10.30.28:708][203]LogWorld: Bringing up level for play took: 0.053321
-[2015.05.07-10.30.28:895][203]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.496
-[2015.05.07-10.30.42:193][716]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003E03EA20
-[2015.05.07-10.30.50:408][653]MapCheck: New page: Map Check
-[2015.05.07-10.30.50:540][653]Cmd: MAP REBUILD ALLVISIBLE
-[2015.05.07-10.30.50:540][653]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2015.05.07-10.30.50:726][653]LightingResults: New page: Lighting Build - May 8, 2015, 6:30:50 AM
-[2015.05.07-10.30.57:599][653]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2015.05.07-10.30.57:599][653]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2015.05.07-10.30.57:599][653]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2015.05.07-10.30.57:599][653]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2015.05.07-10.30.57:599][653]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2015.05.07-10.30.57:839][653]LogEditorBuildUtils: Build time 0:00:07
-[2015.05.07-10.30.57:853][653]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_26, compiling. 
-[2015.05.07-10.30.57:937][653]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_26, compiling. 
-[2015.05.07-10.30.57:979][654]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
-[2015.05.07-10.30.57:983][654]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
-[2015.05.07-10.30.57:987][654]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
-[2015.05.07-10.30.58:015][654]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
-[2015.05.07-10.33.34:312][904]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2015.05.07-10.33.38:849][904]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2015.05.07-10.33.38:946][904]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2015.05.07-10.33.50:906][238]Job is a success!
-[2015.05.07-10.34.07:453][965]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
-[2015.05.07-10.34.10:114][965]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
-[2015.05.07-10.34.10:118][965]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
-[2015.05.07-10.34.10:128][965]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
-[2015.05.07-10.34.10:362][965]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
-[2015.05.07-10.34.11:134][965]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
-[2015.05.07-10.34.11:341][965]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
-[2015.05.07-10.34.11:914][965]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
-[2015.05.07-10.34.12:123][965]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
-[2015.05.07-10.34.12:698][965]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
-[2015.05.07-10.34.12:897][965]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
-[2015.05.07-10.34.13:552][965]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
-[2015.05.07-10.34.13:778][965]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
-[2015.05.07-10.34.14:548][965]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
-[2015.05.07-10.34.14:850][965]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
-[2015.05.07-10.34.16:192][965]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2015.05.07-10.34.18:873][965]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
-[2015.05.07-10.34.19:848][965]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
-[2015.05.07-10.34.20:410][965]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
-[2015.05.07-10.34.20:975][965]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
-[2015.05.07-10.34.21:540][965]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
-[2015.05.07-10.34.22:126][965]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8)
-[2015.05.07-10.34.22:700][965]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
-[2015.05.07-10.34.22:813][965]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8)
-[2015.05.07-10.34.23:053][965]Lightmass on SLAGATHOR: 3:21 min total, 131 ms importing, 0 ms setup, 3.51 sec photons, 3:18 min processing, 0 ms extra exporting [8/8 mappings]. Threads: 23:06 min total, 12:49 min processing.
-[2015.05.07-10.34.25:619][965]LogStaticLightingSystem: Illumination: 3:26 min (19.2 sec encoding lightmaps)
-[2015.05.07-10.34.25:619][965]LogStaticLightingSystem: Lightmap texture memory:  53.3 MB (53.3 MB streaming, 0.0 MB non-streaming), 16 textures
-[2015.05.07-10.34.25:619][965]LogStaticLightingSystem: Shadowmap texture memory: 106.7 MB (106.7 MB streaming, 0.0 MB non-streaming), 8 textures
-[2015.05.07-10.34.35:433][966]Cmd: MAP CHECK NOTIFYRESULTS
-[2015.05.07-10.34.35:510][966]MapCheck: New page: FirstPersonExampleMap - May 8, 2015, 6:34:35 AM
-[2015.05.07-10.34.38:099][966]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 2,608.748ms to complete.
-[2015.05.07-10.35.56:699][276]LogSavePackage: Save=4426.945313ms
-[2015.05.07-10.35.56:699][276]LogSavePackage: Moving '../../../../../../Workspace/Telefour/Telefour/Saved/FirstPersonExampleMapA862AC8D4646296DE73B979FFA349682.tmp' to '../../../../../../Workspace/Telefour/Telefour/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2015.05.07-10.35.56:934][276]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 5.547
-[2015.05.07-10.35.58:327][277]Cmd: QUIT_EDITOR
-[2015.05.07-10.35.59:330][277]LogExit: Preparing to exit.
-[2015.05.07-10.36.00:133][277]LogExit: Editor shut down
-[2015.05.07-10.36.00:135][277]LogExit: Transaction tracking system shut down
-[2015.05.07-10.36.00:171][277]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B0E60C0
-[2015.05.07-10.36.00:175][277]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D63D6C0
-[2015.05.07-10.36.00:176][277]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003C507CE0
-[2015.05.07-10.36.00:177][277]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000043946160
-[2015.05.07-10.36.01:677][277]LogExit: Object subsystem successfully closed.
-[2015.05.07-10.36.04:635][277]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
-[2015.05.07-10.36.04:682][277]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
-[2015.05.07-10.36.04:682][277]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
-[2015.05.07-10.36.04:694][277]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
-[2015.05.07-10.36.04:694][277]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
-[2015.05.07-10.36.04:745][277]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
-[2015.05.07-10.36.04:768][277]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
-[2015.05.07-10.36.04:768][277]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
-[2015.05.07-10.36.04:792][277]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
-[2015.05.07-10.36.04:792][277]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
-[2015.05.07-10.36.04:792][277]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
-[2015.05.07-10.36.04:792][277]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
-[2015.05.07-10.36.04:793][277]LogModuleManager: Shutting down and abandoning module BspMode (165)
-[2015.05.07-10.36.04:793][277]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
-[2015.05.07-10.36.04:793][277]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
-[2015.05.07-10.36.04:840][277]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
-[2015.05.07-10.36.04:840][277]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
-[2015.05.07-10.36.04:854][277]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
-[2015.05.07-10.36.04:863][277]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
-[2015.05.07-10.36.04:979][277]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
-[2015.05.07-10.36.05:015][277]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
-[2015.05.07-10.36.05:071][277]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
-[2015.05.07-10.36.05:088][277]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
-[2015.05.07-10.36.05:088][277]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
-[2015.05.07-10.36.05:104][277]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
-[2015.05.07-10.36.05:105][277]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
-[2015.05.07-10.36.05:105][277]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
-[2015.05.07-10.36.05:105][277]LogModuleManager: Shutting down and abandoning module XmlParser (150)
-[2015.05.07-10.36.05:105][277]LogModuleManager: Shutting down and abandoning module Blutility (149)
-[2015.05.07-10.36.05:105][277]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
-[2015.05.07-10.36.05:119][277]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
-[2015.05.07-10.36.05:119][277]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
-[2015.05.07-10.36.05:525][277]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
-[2015.05.07-10.36.05:525][277]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
-[2015.05.07-10.36.05:525][277]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
-[2015.05.07-10.36.05:592][277]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
-[2015.05.07-10.36.05:592][277]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
-[2015.05.07-10.36.05:611][277]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
-[2015.05.07-10.36.05:612][277]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
-[2015.05.07-10.36.05:612][277]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
-[2015.05.07-10.36.05:624][277]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
-[2015.05.07-10.36.05:636][277]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
-[2015.05.07-10.36.05:636][277]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
-[2015.05.07-10.36.05:636][277]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
-[2015.05.07-10.36.05:649][277]LogModuleManager: Shutting down and abandoning module AutomationController (133)
-[2015.05.07-10.36.05:686][277]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
-[2015.05.07-10.36.05:698][277]LogModuleManager: Shutting down and abandoning module Layers (131)
-[2015.05.07-10.36.05:717][277]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
-[2015.05.07-10.36.05:717][277]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
-[2015.05.07-10.36.05:717][277]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
-[2015.05.07-10.36.05:718][277]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
-[2015.05.07-10.36.05:901][277]LogModuleManager: Shutting down and abandoning module Persona (126)
-[2015.05.07-10.36.05:925][277]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
-[2015.05.07-10.36.05:945][277]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
-[2015.05.07-10.36.05:969][277]LogModuleManager: Shutting down and abandoning module Kismet (123)
-[2015.05.07-10.36.05:983][277]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
-[2015.05.07-10.36.06:012][277]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
-[2015.05.07-10.36.06:025][277]LogModuleManager: Shutting down and abandoning module Toolbox (120)
-[2015.05.07-10.36.06:025][277]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
-[2015.05.07-10.36.06:025][277]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
-[2015.05.07-10.36.06:137][277]LogModuleManager: Shutting down and abandoning module OutputLog (117)
-[2015.05.07-10.36.06:137][277]LogModuleManager: Shutting down and abandoning module GammaUI (116)
-[2015.05.07-10.36.06:145][277]LogModuleManager: Shutting down and abandoning module Documentation (115)
-[2015.05.07-10.36.06:145][277]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
-[2015.05.07-10.36.06:153][277]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
-[2015.05.07-10.36.06:158][277]LogModuleManager: Shutting down and abandoning module HTTP (112)
-[2015.05.07-10.36.06:159][277]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
-[2015.05.07-10.36.06:159][277]LogModuleManager: Shutting down and abandoning module Analytics (110)
-[2015.05.07-10.36.06:159][277]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
-[2015.05.07-10.36.06:176][277]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
-[2015.05.07-10.36.06:191][277]LogModuleManager: Shutting down and abandoning module AIModule (107)
-[2015.05.07-10.36.06:205][277]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
-[2015.05.07-10.36.06:316][277]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
-[2015.05.07-10.36.06:328][277]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
-[2015.05.07-10.36.06:333][277]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
-[2015.05.07-10.36.06:333][277]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
-[2015.05.07-10.36.06:333][277]LogModuleManager: Shutting down and abandoning module CableComponent (101)
-[2015.05.07-10.36.06:333][277]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
-[2015.05.07-10.36.06:362][277]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
-[2015.05.07-10.36.06:369][277]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
-[2015.05.07-10.36.06:369][277]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
-[2015.05.07-10.36.06:390][277]LogModuleManager: Shutting down and abandoning module MainFrame (96)
-[2015.05.07-10.36.06:390][277]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
-[2015.05.07-10.36.06:404][277]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
-[2015.05.07-10.36.06:405][277]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
-[2015.05.07-10.36.06:413][277]LogModuleManager: Shutting down and abandoning module HotReload (92)
-[2015.05.07-10.36.06:413][277]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
-[2015.05.07-10.36.06:413][277]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
-[2015.05.07-10.36.06:413][277]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
-[2015.05.07-10.36.06:419][277]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
-[2015.05.07-10.36.06:436][277]LogModuleManager: Shutting down and abandoning module SourceControl (87)
-[2015.05.07-10.36.06:459][277]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
-[2015.05.07-10.36.06:474][277]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
-[2015.05.07-10.36.06:474][277]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
-[2015.05.07-10.36.06:474][277]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
-[2015.05.07-10.36.06:474][277]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
-[2015.05.07-10.36.06:475][277]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
-[2015.05.07-10.36.06:509][277]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
-[2015.05.07-10.36.06:516][277]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
-[2015.05.07-10.36.06:626][277]LogModuleManager: Shutting down and abandoning module Paper2D (78)
-[2015.05.07-10.36.06:626][277]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
-[2015.05.07-10.36.06:644][277]LogModuleManager: Shutting down and abandoning module Media (76)
-[2015.05.07-10.36.06:644][277]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
-[2015.05.07-10.36.06:659][277]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2015.05.07-10.36.06:659][277]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
-[2015.05.07-10.36.06:687][277]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
-[2015.05.07-10.36.06:721][277]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
-[2015.05.07-10.36.06:727][277]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
-[2015.05.07-10.36.06:753][277]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
-[2015.05.07-10.36.06:859][277]LogModuleManager: Shutting down and abandoning module MessageLog (68)
-[2015.05.07-10.36.06:859][277]LogModuleManager: Shutting down and abandoning module Sequencer (67)
-[2015.05.07-10.36.06:926][277]LogModuleManager: Shutting down and abandoning module AssetTools (66)
-[2015.05.07-10.36.06:977][277]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
-[2015.05.07-10.36.07:002][277]LogModuleManager: Shutting down and abandoning module UMG (64)
-[2015.05.07-10.36.07:034][277]LogModuleManager: Shutting down and abandoning module Slate (63)
-[2015.05.07-10.36.07:034][277]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
-[2015.05.07-10.36.07:111][277]LogModuleManager: Shutting down and abandoning module SessionServices (61)
-[2015.05.07-10.36.07:111][277]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
-[2015.05.07-10.36.07:111][277]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
-[2015.05.07-10.36.07:111][277]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
-[2015.05.07-10.36.07:111][277]LogModuleManager: Shutting down and abandoning module Networking (56)
-[2015.05.07-10.36.07:111][277]LogModuleManager: Shutting down and abandoning module Core (55)
-[2015.05.07-10.36.07:111][277]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
-[2015.05.07-10.36.07:111][277]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
-[2015.05.07-10.36.07:112][277]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
-[2015.05.07-10.36.07:203][277]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
-[2015.05.07-10.36.07:242][277]LogDerivedDataCache: Shutdown
-[2015.05.07-10.36.07:242][277]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
-[2015.05.07-10.36.07:246][277]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
-[2015.05.07-10.36.07:251][277]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
-[2015.05.07-10.36.07:260][277]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
-[2015.05.07-10.36.07:260][277]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
-[2015.05.07-10.36.07:260][277]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
-[2015.05.07-10.36.07:260][277]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
-[2015.05.07-10.36.07:260][277]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
-[2015.05.07-10.36.07:260][277]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
-[2015.05.07-10.36.07:260][277]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
-[2015.05.07-10.36.07:269][277]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
-[2015.05.07-10.36.07:269][277]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
-[2015.05.07-10.36.07:269][277]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
-[2015.05.07-10.36.07:269][277]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
-[2015.05.07-10.36.07:269][277]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
-[2015.05.07-10.36.07:270][277]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
-[2015.05.07-10.36.07:270][277]LogModuleManager: Shutting down and abandoning module Messaging (34)
-[2015.05.07-10.36.07:270][277]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
-[2015.05.07-10.36.07:284][277]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
-[2015.05.07-10.36.07:285][277]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
-[2015.05.07-10.36.07:285][277]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
-[2015.05.07-10.36.07:285][277]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
-[2015.05.07-10.36.07:285][277]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
-[2015.05.07-10.36.07:285][277]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
-[2015.05.07-10.36.07:286][277]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
-[2015.05.07-10.36.07:286][277]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
-[2015.05.07-10.36.07:286][277]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
-[2015.05.07-10.36.07:286][277]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
-[2015.05.07-10.36.07:286][277]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
-[2015.05.07-10.36.07:287][277]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
-[2015.05.07-10.36.07:287][277]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
-[2015.05.07-10.36.07:303][277]LogModuleManager: Shutting down and abandoning module InputCore (19)
-[2015.05.07-10.36.07:303][277]LogModuleManager: Shutting down and abandoning module Settings (18)
-[2015.05.07-10.36.07:303][277]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
-[2015.05.07-10.36.07:304][277]LogModuleManager: Shutting down and abandoning module OculusRift (15)
-[2015.05.07-10.36.07:314][277]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.05.07-10.36.07:314][277]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.05.07-10.36.07:314][277]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.05.07-10.36.07:314][277]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.05.07-10.36.07:314][277]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.05.07-10.36.07:331][277]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.05.07-10.36.07:342][277]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.05.07-10.36.07:342][277]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.05.07-10.36.07:342][277]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.05.07-10.36.07:342][277]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.05.07-10.36.07:342][277]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.05.07-10.36.07:359][277]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.05.07-10.36.07:365][277]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.05.07-10.36.07:365][277]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.05.07-10.36.07:381][277]LogExit: Exiting.
-[2015.05.07-10.36.07:406][277]Log file closed, 05/07/15 20:36:07
+[2015.05.11-06.53.54:215][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.05.11-06.53.54:291][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.11-06.53.54:309][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.11-06.53.54:320][  0]LogInit: Object subsystem initialized
+[2015.05.11-06.53.54:322][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.11-06.53.54:322][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/daniel.waterston/Desktop/Telefour/Telefour/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.11-06.53.54:322][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.11-06.53.54:322][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/daniel.waterston/Desktop/Telefour/Telefour/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.11-06.53.54:322][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.11-06.53.54:322][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/daniel.waterston/Desktop/Telefour/Telefour/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.11-06.53.54:322][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.11-06.53.54:322][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.11-06.53.54:327][  0]LogInit: Computer: FCAA148BABF9
+[2015.05.11-06.53.54:327][  0]LogInit: User: danielwaterston
+[2015.05.11-06.53.54:327][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.05.11-06.53.54:327][  0]LogInit: High frequency timer resolution =3.418017 MHz
+[2015.05.11-06.53.54:327][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx) Virtual=8192.0GB
+[2015.05.11-06.53.54:327][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.11-06.53.54:327][  0]LogMemory: Process Physical Memory: 47.50 MB used, 47.50 MB peak
+[2015.05.11-06.53.54:327][  0]LogMemory: Process Virtual Memory: 23.49 MB used, 23.49 MB peak
+[2015.05.11-06.53.54:327][  0]LogMemory: Physical Memory: 5728.18 MB used, 32633.02 MB total
+[2015.05.11-06.53.54:327][  0]LogMemory: Virtual Memory: 276.28 MB used, 8388608.00 MB total
+[2015.05.11-06.53.54:352][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960 (Feature Level 11_0)
+[2015.05.11-06.53.54:352][  0]LogD3D11RHI: Adapter has 1930MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.05.11-06.53.54:352][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.11-06.53.54:355][  0]LogRHI: Texture pool is 1351 MB (70% of 1930 MB)
+[2015.05.11-06.53.54:360][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.11-06.53.54:409][  0]LogTextLocalizationManager: The requested culture ('en_AU') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.11-06.53.54:456][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Unreal Engine/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Unreal Engine/Unreal Engine/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.05.11-06.53.54:456][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Unreal Engine/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Unreal Engine/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.05.11-06.53.54:525][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.11-06.53.56:438][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.11-06.53.56:847][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.11-06.53.56:898][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.11-06.53.56:929][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/daniel.waterston/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.11-06.53.56:929][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/daniel.waterston/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.11-06.53.56:929][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/daniel.waterston/Desktop/Telefour/Telefour/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.11-06.53.56:929][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.11-06.53.57:031][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.11-06.53.57:042][  0]LogDerivedDataCache: Using Local data cache path C:/Users/daniel.waterston/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.11-06.53.57:278][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.11-06.53.57:278][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.11-06.53.57:573][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.11-06.53.57:634][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.11-06.53.58:217][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.11-06.53.58:383][  0]SourceControl: Info Source control is disabled
+[2015.05.11-06.53.58:383][  0]SourceControl: Info Source control is disabled
+[2015.05.11-06.53.58:383][  0]SourceControl: Info Source control is disabled
+[2015.05.11-06.53.58:383][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.11-06.53.58:383][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.11-06.53.58:391][  0]SourceControl: Info Source control is disabled
+[2015.05.11-06.53.58:537][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.05.11-06.53.58:537][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.05.11-06.53.58:601][  0]LogEngine: Initializing Engine...
+[2015.05.11-06.54.01:725][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.05.11-06.54.01:742][  0]LogInit: FAudioDevice initialized.
+[2015.05.11-06.54.01:771][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.11-06.54.01:788][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/daniel.waterston/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.11-06.54.01:790][  0]LogInit: Texture streaming: Enabled
+[2015.05.11-06.54.01:858][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.11-06.54.01:858][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.11-06.54.01:858][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.11-06.54.01:858][  0]LogAnalytics: SetUserId fba57b964110f3261c634faadd895e7a|b0bf02c749ae4123b03352093dbba08c|a2dfcff7-3252-4f15-97e4-030de54803b8
+[2015.05.11-06.54.01:858][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.11-06.54.01:873][  0]LogInit: Transaction tracking system initialized
+[2015.05.11-06.54.01:998][  0]BlueprintLog: New page: Editor Load
+[2015.05.11-06.54.02:026][  0]LogAssetRegistry: FAssetRegistry took 0.0096 seconds to start up
+[2015.05.11-06.54.02:026][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.11-06.54.02:422][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.11-06.54.02:685][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.11-06.54.02:876][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.11-06.54.02:877][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.11-06.54.02:880][  0]LogConsoleResponse:Display: 
+[2015.05.11-06.54.02:973][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.11-06.54.03:080][  0]SourceControl: Info Source control is disabled
+[2015.05.11-06.54.03:080][  0]Cmd: MAP LOAD FILE="../../../../../../../Users/daniel.waterston/Desktop/Telefour/Telefour/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.11-06.54.03:080][  0]LightingResults: New page: Lighting Build
+[2015.05.11-06.54.03:089][  0]MapCheck: New page: Map Check
+[2015.05.11-06.54.03:089][  0]LightingResults: New page: Lighting Build
+[2015.05.11-06.54.03:095][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011286980
+[2015.05.11-06.54.03:101][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.11-06.54.04:144][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.11-06.54.04:916][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.11-06.54.04:916][  0]Cmd: MAP CHECKDEP
+[2015.05.11-06.54.04:916][  0]MapCheck: New page: FirstPersonExampleMap - 12 May 2015 2:54:04 am
+[2015.05.11-06.54.04:976][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 59.329ms to complete.
+[2015.05.11-06.54.04:976][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.896
+[2015.05.11-06.54.05:149][  0]LogCollectionManager: Loaded 0 collections in 0.001362 seconds
+[2015.05.11-06.54.05:156][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 1696 classes and 261 folders.
+[2015.05.11-06.54.05:184][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2015.05.11-06.54.05:223][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.11-06.54.05:224][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.11-06.54.05:255][  0]LogLoad: Full Startup: 12.70 seconds (BP compile: 0.45 seconds)
+[2015.05.11-06.54.05:288][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.05.11-06.54.05:432][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.05.11-06.54.05:611][  3]LogAssetRegistry: Asset discovery search completed in 3.5949 seconds
+[2015.05.11-06.55.29:822][775]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.11-06.55.29:822][775]PIE: New page: PIE session: FirstPersonExampleMap (12 May 2015 2:55:29 am)
+[2015.05.11-06.55.29:840][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017129s)
+[2015.05.11-06.55.29:841][775]LogPlayLevel: PIE: World Init took: (0.000706s)
+[2015.05.11-06.55.29:841][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap (0.018099s)
+[2015.05.11-06.55.29:915][775]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.11-06.55.29:917][775]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.11-06.55.29:923][775]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.11-16.55.29
+[2015.05.11-06.55.29:924][775]LogWorld: Bringing up level for play took: 0.006357
+[2015.05.11-06.55.29:924][775]LogInit: WinSock: Socket queue 131072 / 131072
+[2015.05.11-06.55.29:925][775]LogInit: WinSock: I am fcaa148babf9 (10.17.23.53:0)
+[2015.05.11-06.55.29:925][775]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2015.05.11-06.55.29:925][775]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap 0.109
+[2015.05.11-06.55.29:930][775]PIE: New page: PIE session: FirstPersonExampleMap (12 May 2015 2:55:29 am)
+[2015.05.11-06.55.29:976][775]LogNet: Browse: 127.0.0.1//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2015.05.11-06.55.29:977][775]LogInit: WinSock: Socket queue 32768 / 32768
+[2015.05.11-06.55.29:977][775]LogNet: Game client on port 7777, rate 10000
+[2015.05.11-06.55.29:977][775]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2513093, ProjectName: telefour, ProjectVersion: , LocalNetworkVersion: -175186362
+[2015.05.11-06.55.29:990][775]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap 0.174
+[2015.05.11-06.55.29:995][775]PIE: New page: PIE session: FirstPersonExampleMap (12 May 2015 2:55:29 am)
+[2015.05.11-06.55.30:035][775]LogNet: Browse: 127.0.0.1//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2015.05.11-06.55.30:036][775]LogInit: WinSock: Socket queue 32768 / 32768
+[2015.05.11-06.55.30:036][775]LogNet: Game client on port 7777, rate 10000
+[2015.05.11-06.55.30:036][775]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2513093, ProjectName: telefour, ProjectVersion: , LocalNetworkVersion: -175186362
+[2015.05.11-06.55.30:049][775]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap 0.233
+[2015.05.11-06.55.30:054][775]LogNet: NotifyAcceptingConnection: Server FirstPersonExampleMap accept
+[2015.05.11-06.55.30:054][775]LogNet: Open FirstPersonExampleMap 05/11/15 16:55:30 127.0.0.1
+[2015.05.11-06.55.30:054][775]LogNet: Added client connection.  Remote address = 127.0.0.1:62557
+[2015.05.11-06.55.30:054][775]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2015.05.11-06.55.30:054][775]LogNet: Remote platform little endian=1
+[2015.05.11-06.55.30:054][775]LogNet: This platform little endian=1
+[2015.05.11-06.55.30:054][775]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2513093, ProjectName: telefour, ProjectVersion: , LocalNetworkVersion: -175186362
+[2015.05.11-06.55.30:054][775]LogNet: NotifyAcceptingConnection: Server FirstPersonExampleMap accept
+[2015.05.11-06.55.30:054][775]LogNet: Open FirstPersonExampleMap 05/11/15 16:55:30 127.0.0.1
+[2015.05.11-06.55.30:054][775]LogNet: Added client connection.  Remote address = 127.0.0.1:62558
+[2015.05.11-06.55.30:054][775]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2015.05.11-06.55.30:054][775]LogNet: Remote platform little endian=1
+[2015.05.11-06.55.30:054][775]LogNet: This platform little endian=1
+[2015.05.11-06.55.30:054][775]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2513093, ProjectName: telefour, ProjectVersion: , LocalNetworkVersion: -175186362
+[2015.05.11-06.55.30:138][776]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap userId: Invalid
+[2015.05.11-06.55.30:139][776]LogNet: Client netspeed is 10000
+[2015.05.11-06.55.30:139][776]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap userId: Invalid
+[2015.05.11-06.55.30:139][776]LogNet: Client netspeed is 10000
+[2015.05.11-06.55.30:142][776]LogNet: Welcomed by server (Level: /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2015.05.11-06.55.30:158][776]LogLoad: LoadMap: 127.0.0.1//Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2015.05.11-06.55.30:165][776]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.05.11-06.55.30:165][776]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.11-06.55.30:196][776]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D22C2C0
+[2015.05.11-06.55.30:203][776]Cmd: MEM
+[2015.05.11-06.55.30:221][776]LogMemory: Platform Memory Stats for Windows
+[2015.05.11-06.55.30:221][776]LogMemory: Process Physical Memory: 1079.61 MB used, 1231.59 MB peak
+[2015.05.11-06.55.30:221][776]LogMemory: Process Virtual Memory: 985.30 MB used, 1167.37 MB peak
+[2015.05.11-06.55.30:221][776]LogMemory: Physical Memory: 6346.36 MB used, 32633.02 MB total
+[2015.05.11-06.55.30:221][776]LogMemory: Virtual Memory: 1503.66 MB used, 8388608.00 MB total
+[2015.05.11-06.55.30:221][776]LogMemory: 
+[2015.05.11-06.55.30:221][776]Allocator Stats for TBB: (not implemented)
+[2015.05.11-06.55.30:221][776]LogLinker: Can't find file for asset '/Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap' while loading NULL.
+[2015.05.11-06.55.30:241][776]LogWorld: PIE: Copying PIE streaming level from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap. OwningWorld: None
+[2015.05.11-06.55.30:250][776]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.11-16.55.30
+[2015.05.11-06.55.30:251][776]LogWorld: Bringing up level for play took: 0.007893
+[2015.05.11-06.55.30:252][776]LogNet: Welcomed by server (Level: /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2015.05.11-06.55.30:259][776]LogLoad: LoadMap: 127.0.0.1//Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2015.05.11-06.55.30:276][776]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D15F420
+[2015.05.11-06.55.30:279][776]Cmd: MEM
+[2015.05.11-06.55.30:294][776]LogMemory: Platform Memory Stats for Windows
+[2015.05.11-06.55.30:295][776]LogMemory: Process Physical Memory: 1088.46 MB used, 1231.59 MB peak
+[2015.05.11-06.55.30:295][776]LogMemory: Process Virtual Memory: 997.46 MB used, 1167.37 MB peak
+[2015.05.11-06.55.30:295][776]LogMemory: Physical Memory: 6360.20 MB used, 32633.02 MB total
+[2015.05.11-06.55.30:295][776]LogMemory: Virtual Memory: 1515.79 MB used, 8388608.00 MB total
+[2015.05.11-06.55.30:295][776]LogMemory: 
+[2015.05.11-06.55.30:295][776]Allocator Stats for TBB: (not implemented)
+[2015.05.11-06.55.30:295][776]LogLinker: Can't find file for asset '/Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap' while loading NULL.
+[2015.05.11-06.55.30:311][776]LogWorld: PIE: Copying PIE streaming level from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_3_FirstPersonExampleMap.FirstPersonExampleMap. OwningWorld: None
+[2015.05.11-06.55.30:319][776]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_3_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.11-16.55.30
+[2015.05.11-06.55.30:320][776]LogWorld: Bringing up level for play took: 0.006212
+[2015.05.11-06.55.30:331][777]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2015.05.11-06.55.30:334][777]LogNet: Join succeeded: 256
+[2015.05.11-06.55.30:334][777]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2015.05.11-06.55.30:336][777]LogNet: Join succeeded: 257
+[2015.05.11-06.55.30:352][778]LogRenderer:Warning: Reallocating scene render targets to support 1280x720 (Frame:562).
+[2015.05.11-06.55.39:102][709]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.05.11-06.55.39:102][709]LogNet: UNetConnection::Close: Name: None, Driver: GameNetDriver None, PC: None, Owner: None, Channels: 1, RemoteAddr: 127.0.0.1:7777, Time: 2015.05.11-06.55.39
+[2015.05.11-06.55.39:102][709]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_0
+[2015.05.11-06.55.39:102][709]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.05.11-06.55.39:102][709]LogNet: UNetConnection::Close: Name: None, Driver: GameNetDriver None, PC: None, Owner: None, Channels: 1, RemoteAddr: 127.0.0.1:7777, Time: 2015.05.11-06.55.39
+[2015.05.11-06.55.39:102][709]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_1
+[2015.05.11-06.55.39:102][709]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.05.11-06.55.39:102][709]LogNet: UNetConnection::Close: Name: None, Driver: GameNetDriver None, PC: None, Owner: None, Channels: 1, RemoteAddr: 127.0.0.1:62557, Time: 2015.05.11-06.55.39
+[2015.05.11-06.55.39:102][709]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_2
+[2015.05.11-06.55.39:102][709]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.05.11-06.55.39:102][709]LogNet: UNetConnection::Close: Name: None, Driver: GameNetDriver None, PC: None, Owner: None, Channels: 1, RemoteAddr: 127.0.0.1:62558, Time: 2015.05.11-06.55.39
+[2015.05.11-06.55.39:102][709]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_3
+[2015.05.11-06.55.39:103][709]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004CB57C40
+[2015.05.11-06.55.39:103][709]LogExit: GameNetDriver None shut down
+[2015.05.11-06.55.39:103][709]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001131C5E0
+[2015.05.11-06.55.39:103][709]LogExit: GameNetDriver None shut down
+[2015.05.11-06.55.39:103][709]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004CB55120
+[2015.05.11-06.55.39:104][709]LogExit: GameNetDriver None shut down
+[2015.05.11-06.56.31:425][ 49]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.11-06.56.31:426][ 49]PIE: New page: PIE session: FirstPersonExampleMap (12 May 2015 2:56:31 am)
+[2015.05.11-06.56.31:442][ 49]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016218s)
+[2015.05.11-06.56.31:443][ 49]LogPlayLevel: PIE: World Init took: (0.000613s)
+[2015.05.11-06.56.31:443][ 49]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap (0.017000s)
+[2015.05.11-06.56.31:444][ 49]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.11-06.56.31:446][ 49]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.11-06.56.31:452][ 49]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.11-16.56.31
+[2015.05.11-06.56.31:452][ 49]LogWorld: Bringing up level for play took: 0.006377
+[2015.05.11-06.56.31:453][ 49]LogInit: WinSock: Socket queue 131072 / 131072
+[2015.05.11-06.56.31:453][ 49]LogNet: GameNetDriver IpNetDriver_3 IpNetDriver listening on port 7777
+[2015.05.11-06.56.31:453][ 49]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap -0.364
+[2015.05.11-06.56.31:458][ 49]PIE: New page: PIE session: FirstPersonExampleMap (12 May 2015 2:56:31 am)
+[2015.05.11-06.56.31:504][ 49]LogNet: Browse: 127.0.0.1//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2015.05.11-06.56.31:505][ 49]LogInit: WinSock: Socket queue 32768 / 32768
+[2015.05.11-06.56.31:505][ 49]LogNet: Game client on port 7777, rate 10000
+[2015.05.11-06.56.31:505][ 49]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2513093, ProjectName: telefour, ProjectVersion: , LocalNetworkVersion: -175186362
+[2015.05.11-06.56.31:527][ 49]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap -0.29
+[2015.05.11-06.56.31:532][ 49]PIE: New page: PIE session: FirstPersonExampleMap (12 May 2015 2:56:31 am)
+[2015.05.11-06.56.31:577][ 49]LogNet: Browse: 127.0.0.1//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2015.05.11-06.56.31:578][ 49]LogInit: WinSock: Socket queue 32768 / 32768
+[2015.05.11-06.56.31:578][ 49]LogNet: Game client on port 7777, rate 10000
+[2015.05.11-06.56.31:578][ 49]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2513093, ProjectName: telefour, ProjectVersion: , LocalNetworkVersion: -175186362
+[2015.05.11-06.56.31:601][ 49]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap -0.216
+[2015.05.11-06.56.31:606][ 49]LogNet: NotifyAcceptingConnection: Server FirstPersonExampleMap accept
+[2015.05.11-06.56.31:606][ 49]LogNet: Open FirstPersonExampleMap 05/11/15 16:56:31 127.0.0.1
+[2015.05.11-06.56.31:606][ 49]LogNet: Added client connection.  Remote address = 127.0.0.1:58090
+[2015.05.11-06.56.31:606][ 49]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2015.05.11-06.56.31:606][ 49]LogNet: Remote platform little endian=1
+[2015.05.11-06.56.31:606][ 49]LogNet: This platform little endian=1
+[2015.05.11-06.56.31:606][ 49]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2513093, ProjectName: telefour, ProjectVersion: , LocalNetworkVersion: -175186362
+[2015.05.11-06.56.31:606][ 49]LogNet: NotifyAcceptingConnection: Server FirstPersonExampleMap accept
+[2015.05.11-06.56.31:606][ 49]LogNet: Open FirstPersonExampleMap 05/11/15 16:56:31 127.0.0.1
+[2015.05.11-06.56.31:606][ 49]LogNet: Added client connection.  Remote address = 127.0.0.1:58091
+[2015.05.11-06.56.31:606][ 49]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2015.05.11-06.56.31:606][ 49]LogNet: Remote platform little endian=1
+[2015.05.11-06.56.31:606][ 49]LogNet: This platform little endian=1
+[2015.05.11-06.56.31:606][ 49]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2513093, ProjectName: telefour, ProjectVersion: , LocalNetworkVersion: -175186362
+[2015.05.11-06.56.31:691][ 50]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap userId: Invalid
+[2015.05.11-06.56.31:691][ 50]LogNet: Client netspeed is 10000
+[2015.05.11-06.56.31:691][ 50]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap userId: Invalid
+[2015.05.11-06.56.31:691][ 50]LogNet: Client netspeed is 10000
+[2015.05.11-06.56.31:693][ 50]LogNet: Welcomed by server (Level: /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2015.05.11-06.56.31:698][ 50]LogLoad: LoadMap: 127.0.0.1//Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2015.05.11-06.56.31:713][ 50]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F68D620
+[2015.05.11-06.56.31:715][ 50]Cmd: MEM
+[2015.05.11-06.56.31:729][ 50]LogMemory: Platform Memory Stats for Windows
+[2015.05.11-06.56.31:729][ 50]LogMemory: Process Physical Memory: 1134.63 MB used, 1231.59 MB peak
+[2015.05.11-06.56.31:729][ 50]LogMemory: Process Virtual Memory: 1044.15 MB used, 1167.37 MB peak
+[2015.05.11-06.56.31:729][ 50]LogMemory: Physical Memory: 6394.59 MB used, 32633.02 MB total
+[2015.05.11-06.56.31:729][ 50]LogMemory: Virtual Memory: 1574.04 MB used, 8388608.00 MB total
+[2015.05.11-06.56.31:729][ 50]LogMemory: 
+[2015.05.11-06.56.31:729][ 50]Allocator Stats for TBB: (not implemented)
+[2015.05.11-06.56.31:730][ 50]LogLinker: Can't find file for asset '/Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap' while loading NULL.
+[2015.05.11-06.56.31:746][ 50]LogWorld: PIE: Copying PIE streaming level from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap. OwningWorld: None
+[2015.05.11-06.56.31:754][ 50]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.11-16.56.31
+[2015.05.11-06.56.31:754][ 50]LogWorld: Bringing up level for play took: 0.006290
+[2015.05.11-06.56.31:755][ 50]LogNet: Welcomed by server (Level: /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2015.05.11-06.56.31:761][ 50]LogLoad: LoadMap: 127.0.0.1//Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2015.05.11-06.56.31:776][ 50]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000052B67240
+[2015.05.11-06.56.31:776][ 50]Cmd: MEM
+[2015.05.11-06.56.31:790][ 50]LogMemory: Platform Memory Stats for Windows
+[2015.05.11-06.56.31:790][ 50]LogMemory: Process Physical Memory: 1142.66 MB used, 1231.59 MB peak
+[2015.05.11-06.56.31:790][ 50]LogMemory: Process Virtual Memory: 1052.23 MB used, 1167.37 MB peak
+[2015.05.11-06.56.31:790][ 50]LogMemory: Physical Memory: 6407.14 MB used, 32633.02 MB total
+[2015.05.11-06.56.31:790][ 50]LogMemory: Virtual Memory: 1582.10 MB used, 8388608.00 MB total
+[2015.05.11-06.56.31:790][ 50]LogMemory: 
+[2015.05.11-06.56.31:790][ 50]Allocator Stats for TBB: (not implemented)
+[2015.05.11-06.56.31:790][ 50]LogLinker: Can't find file for asset '/Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap' while loading NULL.
+[2015.05.11-06.56.31:807][ 50]LogWorld: PIE: Copying PIE streaming level from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_3_FirstPersonExampleMap.FirstPersonExampleMap. OwningWorld: None
+[2015.05.11-06.56.31:815][ 50]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_3_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.11-16.56.31
+[2015.05.11-06.56.31:815][ 50]LogWorld: Bringing up level for play took: 0.006047
+[2015.05.11-06.56.31:827][ 51]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2015.05.11-06.56.31:830][ 51]LogNet: Join succeeded: 258
+[2015.05.11-06.56.31:830][ 51]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2015.05.11-06.56.31:831][ 51]LogNet: Join succeeded: 259
+[2015.05.11-06.56.50:484][ 22]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.05.11-06.56.50:484][ 22]LogNet: UNetConnection::Close: Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_3, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:58091, Time: 2015.05.11-06.56.50
+[2015.05.11-06.56.50:484][ 22]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_7
+[2015.05.11-06.56.50:484][ 22]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.05.11-06.56.50:484][ 22]LogNet: UNetConnection::Close: Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_3, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:58090, Time: 2015.05.11-06.56.50
+[2015.05.11-06.56.50:484][ 22]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_6
+[2015.05.11-06.56.50:485][ 22]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.05.11-06.56.50:485][ 22]LogNet: UNetConnection::Close: Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_5, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2015.05.11-06.56.50
+[2015.05.11-06.56.50:485][ 22]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_5
+[2015.05.11-06.56.50:485][ 22]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.05.11-06.56.50:485][ 22]LogNet: UNetConnection::Close: Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_4, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2015.05.11-06.56.50
+[2015.05.11-06.56.50:485][ 22]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_4
+[2015.05.11-06.56.50:486][ 22]LogExit: GameNetDriver None shut down
+[2015.05.11-06.56.50:486][ 22]LogExit: GameNetDriver None shut down
+[2015.05.11-06.56.50:486][ 22]LogExit: GameNetDriver None shut down
+[2015.05.11-06.56.50:486][ 22]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F68E980
+[2015.05.11-06.56.50:578][ 23]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004627E8E0
+[2015.05.11-06.56.50:578][ 23]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004627D260
+[2015.05.11-06.56.55:283][368]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.11-06.56.55:288][368]PIE: New page: PIE session: FirstPersonExampleMap (12 May 2015 2:56:55 am)
+[2015.05.11-06.56.55:305][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016274s)
+[2015.05.11-06.56.55:305][368]LogPlayLevel: PIE: World Init took: (0.000610s)
+[2015.05.11-06.56.55:305][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap (0.017053s)
+[2015.05.11-06.56.55:350][368]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.11-06.56.55:351][368]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.11-06.56.55:357][368]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.11-16.56.55
+[2015.05.11-06.56.55:358][368]LogWorld: Bringing up level for play took: 0.006155
+[2015.05.11-06.56.55:359][368]LogInit: WinSock: Socket queue 131072 / 131072
+[2015.05.11-06.56.55:359][368]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 7777
+[2015.05.11-06.56.55:384][368]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap -0.433
+[2015.05.11-06.56.55:389][368]PIE: New page: PIE session: FirstPersonExampleMap (12 May 2015 2:56:55 am)
+[2015.05.11-06.56.55:433][368]LogNet: Browse: 127.0.0.1//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2015.05.11-06.56.55:434][368]LogInit: WinSock: Socket queue 32768 / 32768
+[2015.05.11-06.56.55:434][368]LogNet: Game client on port 7777, rate 10000
+[2015.05.11-06.56.55:434][368]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2513093, ProjectName: telefour, ProjectVersion: , LocalNetworkVersion: -175186362
+[2015.05.11-06.56.55:457][368]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap -0.36
+[2015.05.11-06.56.55:462][368]LogNet: NotifyAcceptingConnection: Server FirstPersonExampleMap accept
+[2015.05.11-06.56.55:462][368]LogNet: Open FirstPersonExampleMap 05/11/15 16:56:55 127.0.0.1
+[2015.05.11-06.56.55:462][368]LogNet: Added client connection.  Remote address = 127.0.0.1:55377
+[2015.05.11-06.56.55:462][368]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2015.05.11-06.56.55:462][368]LogNet: Remote platform little endian=1
+[2015.05.11-06.56.55:462][368]LogNet: This platform little endian=1
+[2015.05.11-06.56.55:462][368]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2513093, ProjectName: telefour, ProjectVersion: , LocalNetworkVersion: -175186362
+[2015.05.11-06.56.55:483][368]LogRenderer:Warning: Reallocating scene render targets to support 1296x760 (Frame:4567).
+[2015.05.11-06.56.55:541][369]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap userId: Invalid
+[2015.05.11-06.56.55:542][369]LogNet: Client netspeed is 10000
+[2015.05.11-06.56.55:543][369]LogNet: Welcomed by server (Level: /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2015.05.11-06.56.55:551][369]LogLoad: LoadMap: 127.0.0.1//Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2015.05.11-06.56.55:565][369]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CF75B20
+[2015.05.11-06.56.55:568][369]Cmd: MEM
+[2015.05.11-06.56.55:583][369]LogMemory: Platform Memory Stats for Windows
+[2015.05.11-06.56.55:583][369]LogMemory: Process Physical Memory: 1155.93 MB used, 1231.59 MB peak
+[2015.05.11-06.56.55:583][369]LogMemory: Process Virtual Memory: 1071.45 MB used, 1167.37 MB peak
+[2015.05.11-06.56.55:583][369]LogMemory: Physical Memory: 6416.94 MB used, 32633.02 MB total
+[2015.05.11-06.56.55:583][369]LogMemory: Virtual Memory: 1596.48 MB used, 8388608.00 MB total
+[2015.05.11-06.56.55:583][369]LogMemory: 
+[2015.05.11-06.56.55:583][369]Allocator Stats for TBB: (not implemented)
+[2015.05.11-06.56.55:583][369]LogLinker: Can't find file for asset '/Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap' while loading NULL.
+[2015.05.11-06.56.55:600][369]LogWorld: PIE: Copying PIE streaming level from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap. OwningWorld: None
+[2015.05.11-06.56.55:608][369]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.11-16.56.55
+[2015.05.11-06.56.55:609][369]LogWorld: Bringing up level for play took: 0.006355
+[2015.05.11-06.56.55:622][370]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2015.05.11-06.56.55:624][370]LogNet: Join succeeded: 261
+[2015.05.11-06.57.10:828][283]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2015.05.11-06.57.10:885][283]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.05.11-06.57.10:885][283]LogNet: UNetConnection::Close: Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_6, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:55377, Time: 2015.05.11-06.57.10
+[2015.05.11-06.57.10:885][283]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_9
+[2015.05.11-06.57.10:885][283]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.05.11-06.57.10:885][283]LogNet: UNetConnection::Close: Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_7, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2015.05.11-06.57.10
+[2015.05.11-06.57.10:885][283]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_8
+[2015.05.11-06.57.10:886][283]LogExit: GameNetDriver None shut down
+[2015.05.11-06.57.10:886][283]LogExit: GameNetDriver None shut down
+[2015.05.11-06.57.10:887][283]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D046FC0
+[2015.05.11-06.57.10:977][284]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D103B00
+[2015.05.11-06.57.13:223][468]LogRenderer:Warning: Reallocating scene render targets to support 1296x904 (Frame:6394).
+[2015.05.11-06.58.33:008][129]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.11-06.58.33:013][129]PIE: New page: PIE session: FirstPersonExampleMap (12 May 2015 2:58:33 am)
+[2015.05.11-06.58.33:029][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015191s)
+[2015.05.11-06.58.33:030][129]LogPlayLevel: PIE: World Init took: (0.000599s)
+[2015.05.11-06.58.33:030][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap (0.015988s)
+[2015.05.11-06.58.33:075][129]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.11-06.58.33:077][129]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.11-06.58.33:083][129]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.11-16.58.33
+[2015.05.11-06.58.33:083][129]LogWorld: Bringing up level for play took: 0.006124
+[2015.05.11-06.58.33:084][129]LogInit: WinSock: Socket queue 131072 / 131072
+[2015.05.11-06.58.33:085][129]LogNet: GameNetDriver IpNetDriver_8 IpNetDriver listening on port 7777
+[2015.05.11-06.58.33:098][129]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap -0.721
+[2015.05.11-06.58.33:104][129]PIE: New page: PIE session: FirstPersonExampleMap (12 May 2015 2:58:33 am)
+[2015.05.11-06.58.33:146][129]LogNet: Browse: 127.0.0.1//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2015.05.11-06.58.33:147][129]LogInit: WinSock: Socket queue 32768 / 32768
+[2015.05.11-06.58.33:147][129]LogNet: Game client on port 7777, rate 10000
+[2015.05.11-06.58.33:147][129]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2513093, ProjectName: telefour, ProjectVersion: , LocalNetworkVersion: -175186362
+[2015.05.11-06.58.33:161][129]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap -0.658
+[2015.05.11-06.58.33:166][129]LogNet: NotifyAcceptingConnection: Server FirstPersonExampleMap accept
+[2015.05.11-06.58.33:166][129]LogNet: Open FirstPersonExampleMap 05/11/15 16:58:33 127.0.0.1
+[2015.05.11-06.58.33:166][129]LogNet: Added client connection.  Remote address = 127.0.0.1:57659
+[2015.05.11-06.58.33:166][129]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2015.05.11-06.58.33:166][129]LogNet: Remote platform little endian=1
+[2015.05.11-06.58.33:166][129]LogNet: This platform little endian=1
+[2015.05.11-06.58.33:166][129]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2513093, ProjectName: telefour, ProjectVersion: , LocalNetworkVersion: -175186362
+[2015.05.11-06.58.33:246][130]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap userId: Invalid
+[2015.05.11-06.58.33:246][130]LogNet: Client netspeed is 10000
+[2015.05.11-06.58.33:247][130]LogNet: Welcomed by server (Level: /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2015.05.11-06.58.33:253][130]LogLoad: LoadMap: 127.0.0.1//Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2015.05.11-06.58.33:268][130]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CF3E5C0
+[2015.05.11-06.58.33:270][130]Cmd: MEM
+[2015.05.11-06.58.33:285][130]LogMemory: Platform Memory Stats for Windows
+[2015.05.11-06.58.33:285][130]LogMemory: Process Physical Memory: 1175.21 MB used, 1231.59 MB peak
+[2015.05.11-06.58.33:285][130]LogMemory: Process Virtual Memory: 1087.89 MB used, 1167.37 MB peak
+[2015.05.11-06.58.33:285][130]LogMemory: Physical Memory: 6406.11 MB used, 32633.02 MB total
+[2015.05.11-06.58.33:285][130]LogMemory: Virtual Memory: 1606.64 MB used, 8388608.00 MB total
+[2015.05.11-06.58.33:285][130]LogMemory: 
+[2015.05.11-06.58.33:285][130]Allocator Stats for TBB: (not implemented)
+[2015.05.11-06.58.33:285][130]LogLinker: Can't find file for asset '/Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap' while loading NULL.
+[2015.05.11-06.58.33:302][130]LogWorld: PIE: Copying PIE streaming level from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap. OwningWorld: None
+[2015.05.11-06.58.33:310][130]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.11-16.58.33
+[2015.05.11-06.58.33:310][130]LogWorld: Bringing up level for play took: 0.005877
+[2015.05.11-06.58.33:321][131]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2015.05.11-06.58.33:323][131]LogNet: Join succeeded: 263
+[2015.05.11-06.58.37:802][611]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2015.05.11-06.58.37:859][611]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.05.11-06.58.37:859][611]LogNet: UNetConnection::Close: Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_8, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:57659, Time: 2015.05.11-06.58.37
+[2015.05.11-06.58.37:859][611]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_11
+[2015.05.11-06.58.37:859][611]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.05.11-06.58.37:859][611]LogNet: UNetConnection::Close: Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_9, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2015.05.11-06.58.37
+[2015.05.11-06.58.37:859][611]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_10
+[2015.05.11-06.58.37:861][611]LogExit: GameNetDriver None shut down
+[2015.05.11-06.58.37:861][611]LogExit: GameNetDriver None shut down
+[2015.05.11-06.58.37:861][611]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F6E6F20
+[2015.05.11-06.58.37:876][612]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000043FF2520
+[2015.05.11-07.00.48:806][646]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.11-07.00.51:498][900]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP'
+[2015.05.11-07.00.54:262][184]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Maps'
+[2015.05.11-07.00.57:934][520]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.05.11-07.00.57:934][520]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.11-07.01.01:757][520]LogSavePackage: Save=332.132629ms
+[2015.05.11-07.01.01:757][520]LogSavePackage: Moving '../../../../../../../Users/daniel.waterston/Desktop/Telefour/Telefour/Saved/FirstPersonCharacter16A51B8648E02958403E3BAC42D5BA9F.tmp' to '../../../../../../../Users/daniel.waterston/Desktop/Telefour/Telefour/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2015.05.11-07.01.01:763][520]Cmd: MAP LOAD FILE="../../../../../../../Users/daniel.waterston/Desktop/Telefour/Telefour/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.11-07.01.01:763][520]LightingResults: New page: Lighting Build
+[2015.05.11-07.01.01:780][520]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2015.05.11-07.01.01:781][520]MapCheck: New page: Map Check
+[2015.05.11-07.01.01:781][520]LightingResults: New page: Lighting Build
+[2015.05.11-07.01.01:781][520]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.11-07.01.01:793][520]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D4FD620
+[2015.05.11-07.01.01:902][520]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.11-07.01.02:590][520]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.11-07.01.02:641][520]Cmd: MAP CHECKDEP
+[2015.05.11-07.01.02:641][520]MapCheck: New page: FirstPersonExampleMap - 12 May 2015 3:01:02 am
+[2015.05.11-07.01.02:708][520]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 67.711ms to complete.
+[2015.05.11-07.01.02:709][520]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.948
+[2015.05.11-07.01.08:797][170]Cmd: MAP LOAD FILE="../../../../../../../Users/daniel.waterston/Desktop/Telefour/Telefour/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.11-07.01.08:798][170]LightingResults: New page: Lighting Build
+[2015.05.11-07.01.08:815][170]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2015.05.11-07.01.08:816][170]MapCheck: New page: Map Check
+[2015.05.11-07.01.08:816][170]LightingResults: New page: Lighting Build
+[2015.05.11-07.01.08:876][170]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000043FF3F60
+[2015.05.11-07.01.08:907][170]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.11-07.01.09:593][170]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.11-07.01.09:655][170]Cmd: MAP CHECKDEP
+[2015.05.11-07.01.09:655][170]MapCheck: New page: FirstPersonExampleMap - 12 May 2015 3:01:09 am
+[2015.05.11-07.01.09:722][170]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 67.062ms to complete.
+[2015.05.11-07.01.09:723][170]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.927
+[2015.05.11-07.01.35:655][552]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Maps'
+[2015.05.11-07.01.36:851][694]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP'
+[2015.05.11-07.05.04:915][251]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.11-07.05.04:922][251]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.11-07.05.05:037][251]LogPlayLevel: PIE:  Blueprint regeneration took 121 ms (1 blueprints)
+[2015.05.11-07.05.05:042][251]PIE: New page: PIE session: FirstPersonExampleMap (12 May 2015 3:05:05 am)
+[2015.05.11-07.05.05:059][251]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016776s)
+[2015.05.11-07.05.05:060][251]LogPlayLevel: PIE: World Init took: (0.000635s)
+[2015.05.11-07.05.05:060][251]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap (0.017578s)
+[2015.05.11-07.05.05:107][251]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.11-07.05.05:108][251]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.11-07.05.05:114][251]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.11-17.05.05
+[2015.05.11-07.05.05:115][251]LogWorld: Bringing up level for play took: 0.006562
+[2015.05.11-07.05.05:116][251]LogInit: WinSock: Socket queue 131072 / 131072
+[2015.05.11-07.05.05:117][251]LogNet: GameNetDriver IpNetDriver_10 IpNetDriver listening on port 7777
+[2015.05.11-07.05.05:125][251]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap -0.7
+[2015.05.11-07.05.05:130][251]PIE: New page: PIE session: FirstPersonExampleMap (12 May 2015 3:05:05 am)
+[2015.05.11-07.05.05:172][251]LogNet: Browse: 127.0.0.1//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2015.05.11-07.05.05:172][251]LogInit: WinSock: Socket queue 32768 / 32768
+[2015.05.11-07.05.05:173][251]LogNet: Game client on port 7777, rate 10000
+[2015.05.11-07.05.05:173][251]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2513093, ProjectName: telefour, ProjectVersion: , LocalNetworkVersion: -175186362
+[2015.05.11-07.05.05:182][251]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap -0.643
+[2015.05.11-07.05.05:186][251]LogNet: NotifyAcceptingConnection: Server FirstPersonExampleMap accept
+[2015.05.11-07.05.05:187][251]LogNet: Open FirstPersonExampleMap 05/11/15 17:05:05 127.0.0.1
+[2015.05.11-07.05.05:187][251]LogNet: Added client connection.  Remote address = 127.0.0.1:57749
+[2015.05.11-07.05.05:187][251]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2015.05.11-07.05.05:187][251]LogNet: Remote platform little endian=1
+[2015.05.11-07.05.05:187][251]LogNet: This platform little endian=1
+[2015.05.11-07.05.05:187][251]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2513093, ProjectName: telefour, ProjectVersion: , LocalNetworkVersion: -175186362
+[2015.05.11-07.05.05:316][252]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap userId: Invalid
+[2015.05.11-07.05.05:316][252]LogNet: Client netspeed is 10000
+[2015.05.11-07.05.05:317][252]LogNet: Welcomed by server (Level: /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2015.05.11-07.05.05:321][252]LogLoad: LoadMap: 127.0.0.1//Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2015.05.11-07.05.05:336][252]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000046212B60
+[2015.05.11-07.05.05:339][252]Cmd: MEM
+[2015.05.11-07.05.05:355][252]LogMemory: Platform Memory Stats for Windows
+[2015.05.11-07.05.05:355][252]LogMemory: Process Physical Memory: 1216.03 MB used, 1386.34 MB peak
+[2015.05.11-07.05.05:355][252]LogMemory: Process Virtual Memory: 1128.41 MB used, 1309.30 MB peak
+[2015.05.11-07.05.05:355][252]LogMemory: Physical Memory: 6516.95 MB used, 32633.02 MB total
+[2015.05.11-07.05.05:355][252]LogMemory: Virtual Memory: 1637.48 MB used, 8388608.00 MB total
+[2015.05.11-07.05.05:355][252]LogMemory: 
+[2015.05.11-07.05.05:355][252]Allocator Stats for TBB: (not implemented)
+[2015.05.11-07.05.05:356][252]LogLinker: Can't find file for asset '/Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap' while loading NULL.
+[2015.05.11-07.05.05:376][252]LogWorld: PIE: Copying PIE streaming level from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap. OwningWorld: None
+[2015.05.11-07.05.05:384][252]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.11-17.05.05
+[2015.05.11-07.05.05:384][252]LogWorld: Bringing up level for play took: 0.006234
+[2015.05.11-07.05.05:396][253]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2015.05.11-07.05.05:398][253]LogNet: Join succeeded: 265
+[2015.05.11-07.05.18:755][983]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2015.05.11-07.05.18:812][983]LogNet: UChannel::CleanUp: [GameNetDriver] [PlayerController_22] [PlayerController_22]. ChIndex == 0. Closing connection.
+[2015.05.11-07.05.18:812][983]LogNet: UNetConnection::Close: Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_10, PC: PlayerController_22, Owner: PlayerController_22, Channels: 11, RemoteAddr: 127.0.0.1:57749, Time: 2015.05.11-07.05.18
+[2015.05.11-07.05.18:812][983]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_13
+[2015.05.11-07.05.18:812][983]LogNet: UChannel::CleanUp: [GameNetDriver] [PlayerController_23] [PlayerController_23]. ChIndex == 0. Closing connection.
+[2015.05.11-07.05.18:812][983]LogNet: UNetConnection::Close: Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_11, PC: PlayerController_23, Owner: PlayerController_23, Channels: 11, RemoteAddr: 127.0.0.1:7777, Time: 2015.05.11-07.05.18
+[2015.05.11-07.05.18:812][983]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_12
+[2015.05.11-07.05.18:814][983]LogExit: GameNetDriver None shut down
+[2015.05.11-07.05.18:815][983]LogExit: GameNetDriver None shut down
+[2015.05.11-07.05.18:884][984]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000461EAB60
+[2015.05.11-07.05.18:884][984]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000046212200
+[2015.05.11-07.07.58:781][249]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2015.05.11-07.09.01:733][448]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.05.11-07.09.02:415][521]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2015.05.11-07.11.19:125][339]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.11-07.11.19:139][339]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.11-07.11.19:263][339]LogPlayLevel: PIE:  Blueprint regeneration took 137 ms (1 blueprints)
+[2015.05.11-07.11.19:268][339]PIE: New page: PIE session: FirstPersonExampleMap (12 May 2015 3:11:19 am)
+[2015.05.11-07.11.19:284][339]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015953s)
+[2015.05.11-07.11.19:285][339]LogPlayLevel: PIE: World Init took: (0.000693s)
+[2015.05.11-07.11.19:285][339]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap (0.016833s)
+[2015.05.11-07.11.19:330][339]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.11-07.11.19:332][339]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.11-07.11.19:338][339]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.11-17.11.19
+[2015.05.11-07.11.19:338][339]LogWorld: Bringing up level for play took: 0.006179
+[2015.05.11-07.11.19:340][339]LogInit: WinSock: Socket queue 131072 / 131072
+[2015.05.11-07.11.19:340][339]LogNet: GameNetDriver IpNetDriver_12 IpNetDriver listening on port 7777
+[2015.05.11-07.11.19:351][339]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap -0.478
+[2015.05.11-07.11.19:357][339]PIE: New page: PIE session: FirstPersonExampleMap (12 May 2015 3:11:19 am)
+[2015.05.11-07.11.19:401][339]LogNet: Browse: 127.0.0.1//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2015.05.11-07.11.19:402][339]LogInit: WinSock: Socket queue 32768 / 32768
+[2015.05.11-07.11.19:402][339]LogNet: Game client on port 7777, rate 10000
+[2015.05.11-07.11.19:402][339]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2513093, ProjectName: telefour, ProjectVersion: , LocalNetworkVersion: -175186362
+[2015.05.11-07.11.19:414][339]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap -0.416
+[2015.05.11-07.11.19:418][339]LogNet: NotifyAcceptingConnection: Server FirstPersonExampleMap accept
+[2015.05.11-07.11.19:418][339]LogNet: Open FirstPersonExampleMap 05/11/15 17:11:19 127.0.0.1
+[2015.05.11-07.11.19:418][339]LogNet: Added client connection.  Remote address = 127.0.0.1:61398
+[2015.05.11-07.11.19:418][339]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2015.05.11-07.11.19:418][339]LogNet: Remote platform little endian=1
+[2015.05.11-07.11.19:418][339]LogNet: This platform little endian=1
+[2015.05.11-07.11.19:418][339]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2513093, ProjectName: telefour, ProjectVersion: , LocalNetworkVersion: -175186362
+[2015.05.11-07.11.19:575][340]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap userId: Invalid
+[2015.05.11-07.11.19:575][340]LogNet: Client netspeed is 10000
+[2015.05.11-07.11.19:577][340]LogNet: Welcomed by server (Level: /Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2015.05.11-07.11.19:580][340]LogLoad: LoadMap: 127.0.0.1//Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2015.05.11-07.11.19:595][340]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CB52DE0
+[2015.05.11-07.11.19:597][340]Cmd: MEM
+[2015.05.11-07.11.19:611][340]LogMemory: Platform Memory Stats for Windows
+[2015.05.11-07.11.19:611][340]LogMemory: Process Physical Memory: 1237.38 MB used, 1386.34 MB peak
+[2015.05.11-07.11.19:611][340]LogMemory: Process Virtual Memory: 1145.85 MB used, 1309.30 MB peak
+[2015.05.11-07.11.19:611][340]LogMemory: Physical Memory: 6703.36 MB used, 32633.02 MB total
+[2015.05.11-07.11.19:611][340]LogMemory: Virtual Memory: 1656.07 MB used, 8388608.00 MB total
+[2015.05.11-07.11.19:611][340]LogMemory: 
+[2015.05.11-07.11.19:611][340]Allocator Stats for TBB: (not implemented)
+[2015.05.11-07.11.19:611][340]LogLinker: Can't find file for asset '/Game/FirstPersonBP/Maps/UEDPIE_1_FirstPersonExampleMap' while loading NULL.
+[2015.05.11-07.11.19:628][340]LogWorld: PIE: Copying PIE streaming level from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap. OwningWorld: None
+[2015.05.11-07.11.19:636][340]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.11-17.11.19
+[2015.05.11-07.11.19:637][340]LogWorld: Bringing up level for play took: 0.006478
+[2015.05.11-07.11.19:672][341]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2015.05.11-07.11.19:675][341]LogNet: Join succeeded: 267
+[2015.05.11-07.12.10:338][795]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2015.05.11-07.12.10:401][795]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.05.11-07.12.10:401][795]LogNet: UNetConnection::Close: Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_12, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:61398, Time: 2015.05.11-07.12.10
+[2015.05.11-07.12.10:401][795]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_15
+[2015.05.11-07.12.10:401][795]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.05.11-07.12.10:401][795]LogNet: UNetConnection::Close: Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_13, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2015.05.11-07.12.10
+[2015.05.11-07.12.10:401][795]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_14
+[2015.05.11-07.12.10:403][795]LogExit: GameNetDriver None shut down
+[2015.05.11-07.12.10:403][795]LogExit: GameNetDriver None shut down
+[2015.05.11-07.12.10:481][796]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CB52520
+[2015.05.11-07.12.10:481][796]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000EFA4540
+[2015.05.11-07.12.22:246][883]LogSavePackage: Save=1682.132690ms
+[2015.05.11-07.12.22:246][883]LogSavePackage: Moving '../../../../../../../Users/daniel.waterston/Desktop/Telefour/Telefour/Saved/FirstPersonExampleMap_Auto1B5FAC61F42005C623A81B1A8C099D2B0.tmp' to '../../../../../../../Users/daniel.waterston/Desktop/Telefour/Telefour/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2015.05.11-07.12.22:254][883]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.769
+[2015.05.11-07.12.22:254][883]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.769
+[2015.05.11-07.12.22:291][883]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2015.05.11-07.12.22:310][883]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonChar
