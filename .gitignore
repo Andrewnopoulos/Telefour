@@ -66,3 +66,7 @@ DerivedDataCache/*
 *.swp
 *.swo
 .ctrlp_cache/
+Telefour/Saved/StagedBuilds/
+Telefour/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset
+Telefour/Saved/
+Telefour/Intermediate/
